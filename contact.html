@@ -1,9 +1,12 @@
+<!-- FILE: contact.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact | SirVerse & Arsalan</title>
+    <title>Contact Arsalan Khan Zoyaistani | SirVerse Founder | Get in Touch</title>
+    <meta name="description" content="Contact Arsalan Khan Zoyaistani for collaborations, questions about SirVerse, educational content, or general inquiries. Connect with the student founder directly.">
+    
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -11,137 +14,183 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto+Slab:wght@400;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!-- Navigation -->
     <nav class="main-nav">
         <div class="nav-container">
             <a href="index.html" class="logo">
                 <span class="logo-icon">⚡</span>
-                <span class="logo-text">Sir<span class="logo-highlight">Verse</span></span>
+                <span class="logo-text">Arsalan<span class="logo-highlight">Khan</span></span>
             </a>
             <div class="nav-links">
                 <a href="index.html" class="nav-link"><i class="fas fa-home"></i> Home</a>
-                <a href="about.html" class="nav-link"><i class="fas fa-user"></i> About</a>
-                <a href="sirverse-app.html" class="nav-link"><i class="fas fa-rocket"></i> The App</a>
+                <a href="about.html" class="nav-link"><i class="fas fa-user"></i> About Me</a>
+                <a href="sirverse-app.html" class="nav-link"><i class="fas fa-rocket"></i> SirVerse App</a>
+                <a href="updates.html" class="nav-link"><i class="fas fa-newspaper"></i> Updates</a>
                 <a href="contact.html" class="nav-link active"><i class="fas fa-envelope"></i> Contact</a>
+            </div>
+            <div class="mobile-menu">
+                <i class="fas fa-bars"></i>
             </div>
         </div>
     </nav>
 
     <!-- Contact Hero -->
-    <section class="page-hero">
+    <section class="page-hero contact-hero">
         <div class="page-hero-content">
-            <h1 class="page-hero-title">Let's <span class="highlight">Connect</span></h1>
-            <p class="page-hero-subtitle">Get in touch for collaborations, questions, or just to say hello!</p>
+            <h1 class="page-hero-title">Get In <span class="highlight">Touch</span></h1>
+            <p class="page-hero-subtitle">Connect with me for collaborations, questions, or just to say hello!</p>
         </div>
     </section>
 
     <!-- Contact Content -->
-    <section class="contact-section">
+    <section class="contact-main">
         <div class="section-container">
             <div class="contact-grid">
-                <div class="contact-form-card">
-                    <h2><i class="fas fa-paper-plane"></i> Send a Message</h2>
-                    <p>I'm always excited to connect with fellow students, developers, educators, or anyone interested in the future of educational technology.</p>
+                <div class="contact-info">
+                    <h2>Contact Information</h2>
+                    <p class="contact-intro">I'm always excited to connect with fellow students, developers, educators, or anyone interested in the future of educational technology.</p>
                     
-                    <form class="contact-form" id="contactForm">
-                        <div class="form-group">
-                            <label for="name">Your Name</label>
-                            <input type="text" id="name" placeholder="Enter your name" required>
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <div class="method-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="method-content">
+                                <h3>App & Technical Inquiries</h3>
+                                <p>For questions specifically about SirVerse app development, technical collaborations, or feature suggestions</p>
+                                <a href="mailto:sirversegpt@gmail.com" class="method-link">
+                                    <i class="fas fa-paper-plane"></i> sirversegpt@gmail.com
+                                </a>
+                            </div>
                         </div>
                         
-                        <div class="form-group">
-                            <label for="email">Email Address</label>
-                            <input type="email" id="email" placeholder="Enter your email" required>
+                        <div class="contact-method">
+                            <div class="method-icon">
+                                <i class="fas fa-globe"></i>
+                            </div>
+                            <div class="method-content">
+                                <h3>General Inquiries</h3>
+                                <p>For general questions, speaking engagements, or non-technical collaborations</p>
+                                <div class="social-contact">
+                                    <a href="https://twitter.com/Zoyaistani" target="_blank" class="social-link twitter">
+                                        <i class="fab fa-x-twitter"></i> Twitter
+                                    </a>
+                                    <a href="https://instagram.com/arsalan__khan_zoyaistani" target="_blank" class="social-link instagram">
+                                        <i class="fab fa-instagram"></i> Instagram
+                                    </a>
+                                </div>
+                            </div>
                         </div>
                         
-                        <div class="form-group">
-                            <label for="subject">Subject</label>
-                            <select id="subject">
-                                <option value="">Select a topic</option>
-                                <option value="collaboration">Collaboration Opportunity</option>
-                                <option value="sirverse">About SirVerse App</option>
-                                <option value="technical">Technical Inquiry</option>
-                                <option value="feedback">Feedback</option>
-                                <option value="other">Other</option>
-                            </select>
+                        <div class="contact-method">
+                            <div class="method-icon">
+                                <i class="fas fa-graduation-cap"></i>
+                            </div>
+                            <div class="method-content">
+                                <h3>Educational Content</h3>
+                                <p>For questions about my YouTube content, educational resources, or student guidance</p>
+                                <a href="https://youtube.com/@Zoyaistani" target="_blank" class="method-link">
+                                    <i class="fab fa-youtube"></i> YouTube Comments
+                                </a>
+                            </div>
                         </div>
-                        
-                        <div class="form-group">
-                            <label for="message">Your Message</label>
-                            <textarea id="message" rows="5" placeholder="Type your message here..." required></textarea>
-                        </div>
-                        
-                        <button type="submit" class="btn btn-primary">
-                            <i class="fas fa-paper-plane"></i> Send Message
-                        </button>
-                    </form>
+                    </div>
                     
-                    <p class="form-note"><small>Note: This is a demonstration form. To actually contact me, please use the social links on this page.</small></p>
+                    <div class="contact-note">
+                        <h3><i class="fas fa-clock"></i> Response Time</h3>
+                        <p>As a full-time ICS student and developer, I strive to respond within:</p>
+                        <div class="response-times">
+                            <div class="response-item">
+                                <h4>24-48 Hours</h4>
+                                <p>For direct email inquiries</p>
+                            </div>
+                            <div class="response-item">
+                                <h4>3-5 Days</h4>
+                                <p>For detailed technical questions</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 
-                <div class="contact-info-sidebar">
-                    <div class="info-card">
-                        <h3><i class="fas fa-user"></i> Direct Contact</h3>
-                        <p>The best way to reach me directly is through my social media profiles where I'm most active.</p>
+                <div class="contact-form-section">
+                    <div class="form-container">
+                        <h2><i class="fas fa-paper-plane"></i> Send a Message</h2>
+                        <p class="form-intro">Fill out the form below and I'll get back to you as soon as possible.</p>
                         
-                        <div class="quick-contact-links">
-                            <a href="https://twitter.com/Zoyaistani" class="social-contact-link" target="_blank">
-                                <i class="fab fa-x-twitter"></i>
-                                <span>Twitter / X: @Zoyaistani</span>
-                            </a>
-                            <a href="https://www.instagram.com/arsalankhanzoyaistani/" class="social-contact-link" target="_blank">
-                                <i class="fab fa-instagram"></i>
-                                <span>Instagram: @arsalankhanzoyaistani</span>
-                            </a>
-                            <a href="https://www.linkedin.com/in/arsalan-khan-zoyaistani" class="social-contact-link" target="_blank">
-                                <i class="fab fa-linkedin"></i>
-                                <span>LinkedIn: Arsalan Khan Zoyaistani</span>
-                            </a>
-                            <a href="https://www.youtube.com/@Zoyaistani" class="social-contact-link" target="_blank">
-                                <i class="fab fa-youtube"></i>
-                                <span>YouTube: @Zoyaistani</span>
-                            </a>
-                        </div>
-                    </div>
-                    
-                    <div class="info-card">
-                        <h3><i class="fas fa-rocket"></i> About SirVerse Inquiries</h3>
-                        <p>For questions specifically about the SirVerse app:</p>
-                        <ul>
-                            <li>Technical collaboration proposals</li>
-                            <li>Beta testing opportunities</li>
-                            <li>Educational institution partnerships</li>
-                            <li>Feature suggestions from students</li>
-                        </ul>
-                        <p>Please mention "SirVerse" in your message.</p>
-                    </div>
-                    
-                    <div class="info-card">
-                        <h3><i class="fas fa-clock"></i> Response Time</h3>
-                        <p>As a full-time student and developer, I strive to respond within:</p>
-                        <div class="response-time">
-                            <div class="time-item">
-                                <h4>24-48 Hours</h4>
-                                <p>For social media messages</p>
+                        <form class="contact-form" id="contactForm">
+                            <div class="form-group">
+                                <label for="name">Your Name *</label>
+                                <input type="text" id="name" placeholder="Enter your full name" required>
                             </div>
-                            <div class="time-item">
-                                <h4>3-5 Days</h4>
-                                <p>For detailed inquiries</p>
+                            
+                            <div class="form-group">
+                                <label for="email">Email Address *</label>
+                                <input type="email" id="email" placeholder="Enter your email address" required>
                             </div>
-                        </div>
+                            
+                            <div class="form-group">
+                                <label for="category">Inquiry Category *</label>
+                                <select id="category" required>
+                                    <option value="">Select a category</option>
+                                    <option value="sirverse">SirVerse App Inquiry</option>
+                                    <option value="collaboration">Collaboration Opportunity</option>
+                                    <option value="education">Educational Content</option>
+                                    <option value="technical">Technical Question</option>
+                                    <option value="feedback">Feedback</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="message">Your Message *</label>
+                                <textarea id="message" rows="6" placeholder="Type your message here..." required></textarea>
+                            </div>
+                            
+                            <div class="form-submit">
+                                <button type="submit" class="btn btn-primary">
+                                    <i class="fas fa-paper-plane"></i> Send Message
+                                </button>
+                                <p class="form-disclaimer"><small>Note: This form sends messages to my official email. I'll respond as soon as possible.</small></p>
+                            </div>
+                        </form>
                     </div>
                 </div>
             </div>
             
-            <div class="contact-cta">
-                <h2>Let's Build the Future of Student Tech Together</h2>
-                <p>Whether you're interested in collaborating, providing feedback on SirVerse, or discussing technology and education, I'd love to hear from you.</p>
-                <div class="cta-buttons">
-                    <a href="https://github.com" class="btn btn-secondary" target="_blank">
-                        <i class="fab fa-github"></i> Check My GitHub
+            <!-- Quick Links -->
+            <div class="quick-links-section">
+                <h2 class="section-title">Quick <span class="highlight">Links</span></h2>
+                
+                <div class="quick-links-grid">
+                    <a href="https://youtube.com/@Zoyaistani" class="quick-link youtube" target="_blank">
+                        <i class="fab fa-youtube"></i>
+                        <div>
+                            <h3>YouTube Channel</h3>
+                            <p>Watch educational content & tutorials</p>
+                        </div>
                     </a>
-                    <a href="sirverse-app.html" class="btn btn-primary">
-                        <i class="fas fa-rocket"></i> Learn About SirVerse
+                    
+                    <a href="https://twitter.com/Zoyaistani" class="quick-link twitter" target="_blank">
+                        <i class="fab fa-x-twitter"></i>
+                        <div>
+                            <h3>Twitter Updates</h3>
+                            <p>Follow for real-time updates</p>
+                        </div>
+                    </a>
+                    
+                    <a href="https://linkedin.com/in/arsalankhanzoyaistani" class="quick-link linkedin" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                        <div>
+                            <h3>LinkedIn Profile</h3>
+                            <p>Connect professionally</p>
+                        </div>
+                    </a>
+                    
+                    <a href="updates.html" class="quick-link updates">
+                        <i class="fas fa-newspaper"></i>
+                        <div>
+                            <h3>SirVerse Updates</h3>
+                            <p>Latest app development news</p>
+                        </div>
                     </a>
                 </div>
             </div>
@@ -154,33 +203,455 @@
             <div class="footer-brand">
                 <a href="index.html" class="logo">
                     <span class="logo-icon">⚡</span>
-                    <span class="logo-text">Sir<span class="logo-highlight">Verse</span></span>
+                    <span class="logo-text">Arsalan<span class="logo-highlight">Khan</span></span>
                 </a>
-                <p>Connecting students, powering education.</p>
+                <p>Student Developer | Founder of SirVerse | Educational Innovator</p>
+                <div class="footer-social">
+                    <a href="https://instagram.com/arsalan__khan_zoyaistani" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://twitter.com/Zoyaistani" target="_blank"><i class="fab fa-x-twitter"></i></a>
+                    <a href="https://youtube.com/@Zoyaistani" target="_blank"><i class="fab fa-youtube"></i></a>
+                    <a href="https://linkedin.com/in/arsalankhanzoyaistani" target="_blank"><i class="fab fa-linkedin"></i></a>
+                </div>
             </div>
-            <div class="footer-links">
-                <a href="index.html">Home</a>
-                <a href="about.html">About</a>
-                <a href="sirverse-app.html">The App</a>
-                <a href="contact.html">Contact</a>
+            
+            <div class="footer-links-grid">
+                <div class="footer-links">
+                    <h4>Navigation</h4>
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About Me</a>
+                    <a href="sirverse-app.html">SirVerse App</a>
+                    <a href="updates.html">Updates</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Resources</h4>
+                    <a href="privacy.html">Privacy Policy</a>
+                    <a href="terms.html">Terms of Service</a>
+                    <a href="sirverse-app.html#faq">FAQ</a>
+                    <a href="#support">Support</a>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Connect</h4>
+                    <a href="mailto:sirversegpt@gmail.com">App Inquiries</a>
+                    <a href="https://twitter.com/Zoyaistani">Twitter</a>
+                    <a href="https://youtube.com/@Zoyaistani">YouTube</a>
+                    <a href="https://linkedin.com/in/arsalankhanzoyaistani">LinkedIn</a>
+                </div>
             </div>
-            <div class="footer-copyright">
-                <p>© <span id="current-year">2024</span> Arsalan Khan Zoyaistani. All rights reserved.</p>
-                <p>Made with <i class="fas fa-heart" style="color: #ff4757;"></i> by the Founder.</p>
+            
+            <div class="footer-newsletter">
+                <h4>Stay Updated</h4>
+                <p>Get notified about SirVerse updates and new educational content</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Your email address" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <div class="footer-container">
+                <p>© <span id="current-year-contact">2026</span> Arsalan Khan Zoyaistani. All rights reserved.</p>
+                <p>Government Graduate College Layyah | ICS Student | Chak 133 TDA Layyah, Pakistan</p>
             </div>
         </div>
     </footer>
 
     <script>
-        // Set current year
-        document.getElementById('current-year').textContent = new Date().getFullYear();
+        // Current year in footer
+        document.getElementById('current-year-contact').textContent = new Date().getFullYear();
         
-        // Form submission handling (demo only)
+        // Mobile menu toggle
+        document.querySelector('.mobile-menu').addEventListener('click', function() {
+            document.querySelector('.nav-links').classList.toggle('active');
+        });
+        
+        // Contact form submission
         document.getElementById('contactForm').addEventListener('submit', function(e) {
             e.preventDefault();
-            alert('Thank you for your message! This is a demonstration form. To actually contact Arsalan, please use the social media links provided on this page.');
+            
+            // Get form data
+            const name = document.getElementById('name').value;
+            const email = document.getElementById('email').value;
+            const category = document.getElementById('category').value;
+            const message = document.getElementById('message').value;
+            
+            // Create mailto link
+            const subject = `Contact Form: ${category} - ${name}`;
+            const body = `Name: ${name}\nEmail: ${email}\nCategory: ${category}\n\nMessage:\n${message}\n\nSent from arsalankhanzoyaistani.com`;
+            
+            const mailtoLink = `mailto:sirversegpt@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+            
+            // Open email client
+            window.location.href = mailtoLink;
+            
+            // Show success message
+            setTimeout(() => {
+                alert('Thank you for your message! Your email client should open with a pre-filled message. If it doesn\'t open automatically, please send your email to sirversegpt@gmail.com');
+                this.reset();
+            }, 500);
+        });
+        
+        // Newsletter form submission
+        document.querySelector('.newsletter-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert('Thank you for subscribing! You\'ll receive updates about SirVerse and educational content.');
             this.reset();
         });
     </script>
+    
+    <style>
+        .contact-hero {
+            background: linear-gradient(135deg, #2D2B55 0%, #6C63FF 100%);
+        }
+        
+        .contact-main {
+            padding: 80px 0;
+            background: #f8fafc;
+        }
+        
+        .contact-grid {
+            display: grid;
+            grid-template-columns: 1fr 1.2fr;
+            gap: 60px;
+            margin-bottom: 80px;
+        }
+        
+        @media (max-width: 992px) {
+            .contact-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+        
+        /* Contact Info Styles */
+        .contact-info h2 {
+            color: var(--darker-color);
+            margin-bottom: 20px;
+        }
+        
+        .contact-intro {
+            color: var(--gray-color);
+            margin-bottom: 40px;
+            font-size: 1.1rem;
+            line-height: 1.7;
+        }
+        
+        .contact-methods {
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            margin-bottom: 50px;
+        }
+        
+        .contact-method {
+            display: flex;
+            gap: 20px;
+            padding: 25px;
+            background: white;
+            border-radius: var(--border-radius);
+            box-shadow: var(--shadow);
+            transition: var(--transition);
+        }
+        
+        .contact-method:hover {
+            transform: translateY(-5px);
+            box-shadow: var(--shadow-heavy);
+        }
+        
+        .method-icon {
+            width: 60px;
+            height: 60px;
+            background: rgba(79, 70, 229, 0.1);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--primary-color);
+            font-size: 1.5rem;
+            flex-shrink: 0;
+        }
+        
+        .method-content h3 {
+            margin-bottom: 10px;
+            color: var(--darker-color);
+        }
+        
+        .method-content p {
+            color: var(--gray-color);
+            margin-bottom: 15px;
+            line-height: 1.6;
+        }
+        
+        .method-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            color: var(--primary-color);
+            font-weight: 600;
+            text-decoration: none;
+            padding: 8px 16px;
+            border-radius: 8px;
+            background: rgba(79, 70, 229, 0.05);
+            transition: var(--transition);
+        }
+        
+        .method-link:hover {
+            background: rgba(79, 70, 229, 0.1);
+        }
+        
+        .social-contact {
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+        
+        .social-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 8px 16px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 500;
+            transition: var(--transition);
+        }
+        
+        .social-link.twitter {
+            background: rgba(0, 0, 0, 0.05);
+            color: #000000;
+        }
+        
+        .social-link.twitter:hover {
+            background: rgba(0, 0, 0, 0.1);
+        }
+        
+        .social-link.instagram {
+            background: rgba(225, 48, 108, 0.05);
+            color: #E1306C;
+        }
+        
+        .social-link.instagram:hover {
+            background: rgba(225, 48, 108, 0.1);
+        }
+        
+        .contact-note {
+            background: white;
+            padding: 30px;
+            border-radius: var(--border-radius);
+            box-shadow: var(--shadow);
+        }
+        
+        .contact-note h3 {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 15px;
+            color: var(--darker-color);
+        }
+        
+        .contact-note > p {
+            color: var(--gray-color);
+            margin-bottom: 25px;
+        }
+        
+        .response-times {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 20px;
+        }
+        
+        .response-item {
+            text-align: center;
+            padding: 20px;
+            background: var(--light-color);
+            border-radius: var(--border-radius);
+        }
+        
+        .response-item h4 {
+            color: var(--primary-color);
+            margin-bottom: 5px;
+        }
+        
+        .response-item p {
+            color: var(--gray-color);
+            font-size: 0.9rem;
+            margin: 0;
+        }
+        
+        /* Contact Form Styles */
+        .form-container {
+            background: white;
+            padding: 40px;
+            border-radius: var(--border-radius);
+            box-shadow: var(--shadow);
+        }
+        
+        .form-container h2 {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            margin-bottom: 10px;
+            color: var(--darker-color);
+        }
+        
+        .form-intro {
+            color: var(--gray-color);
+            margin-bottom: 30px;
+        }
+        
+        .form-group {
+            margin-bottom: 25px;
+        }
+        
+        .form-group label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 500;
+            color: var(--dark-color);
+        }
+        
+        .form-group input,
+        .form-group select,
+        .form-group textarea {
+            width: 100%;
+            padding: 15px;
+            border: 1px solid var(--light-gray);
+            border-radius: 8px;
+            font-family: var(--font-body);
+            font-size: 1rem;
+            transition: var(--transition);
+        }
+        
+        .form-group input:focus,
+        .form-group select:focus,
+        .form-group textarea:focus {
+            outline: none;
+            border-color: var(--primary-color);
+            box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.1);
+        }
+        
+        .form-submit {
+            margin-top: 30px;
+        }
+        
+        .form-submit .btn {
+            width: 100%;
+            padding: 16px;
+            font-size: 1.1rem;
+        }
+        
+        .form-disclaimer {
+            text-align: center;
+            margin-top: 15px;
+            color: var(--gray-color);
+            font-size: 0.9rem;
+        }
+        
+        /* Quick Links */
+        .quick-links-section {
+            margin-top: 60px;
+        }
+        
+        .quick-links-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-top: 40px;
+        }
+        
+        .quick-link {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            padding: 25px;
+            background: white;
+            border-radius: var(--border-radius);
+            text-decoration: none;
+            box-shadow: var(--shadow);
+            transition: var(--transition);
+            border-left: 4px solid var(--primary-color);
+        }
+        
+        .quick-link:hover {
+            transform: translateY(-5px);
+            box-shadow: var(--shadow-heavy);
+        }
+        
+        .quick-link.youtube {
+            border-left-color: #FF0000;
+        }
+        
+        .quick-link.twitter {
+            border-left-color: #000000;
+        }
+        
+        .quick-link.linkedin {
+            border-left-color: #0A66C2;
+        }
+        
+        .quick-link.updates {
+            border-left-color: var(--primary-color);
+        }
+        
+        .quick-link i {
+            font-size: 2.5rem;
+            width: 60px;
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            color: white;
+            flex-shrink: 0;
+        }
+        
+        .quick-link.youtube i {
+            background: #FF0000;
+        }
+        
+        .quick-link.twitter i {
+            background: #000000;
+        }
+        
+        .quick-link.linkedin i {
+            background: #0A66C2;
+        }
+        
+        .quick-link.updates i {
+            background: var(--primary-color);
+        }
+        
+        .quick-link h3 {
+            margin-bottom: 5px;
+            color: var(--darker-color);
+        }
+        
+        .quick-link p {
+            color: var(--gray-color);
+            margin: 0;
+            font-size: 0.9rem;
+        }
+        
+        @media (max-width: 768px) {
+            .contact-grid {
+                gap: 40px;
+            }
+            
+            .contact-method {
+                flex-direction: column;
+                text-align: center;
+            }
+            
+            .method-icon {
+                margin: 0 auto;
+            }
+            
+            .quick-links-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
 </body>
 </html>

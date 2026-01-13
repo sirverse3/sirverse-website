@@ -1,0 +1,199 @@
+<!-- FILE: privacy.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy | SirVerse & Arsalan Khan Zoyaistani</title>
+    <meta name="description" content="Privacy policy for SirVerse app and arsalankhanzoyaistani.com. Learn how we protect your data and respect your privacy.">
+    
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto+Slab:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="main-nav">
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                <span class="logo-icon">⚡</span>
+                <span class="logo-text">Arsalan<span class="logo-highlight">Khan</span></span>
+            </a>
+            <div class="nav-links">
+                <a href="index.html" class="nav-link"><i class="fas fa-home"></i> Home</a>
+                <a href="about.html" class="nav-link"><i class="fas fa-user"></i> About Me</a>
+                <a href="sirverse-app.html" class="nav-link"><i class="fas fa-rocket"></i> SirVerse App</a>
+                <a href="updates.html" class="nav-link"><i class="fas fa-newspaper"></i> Updates</a>
+                <a href="contact.html" class="nav-link"><i class="fas fa-envelope"></i> Contact</a>
+            </div>
+            <div class="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <section class="page-hero">
+        <div class="page-hero-content">
+            <h1 class="page-hero-title">Privacy <span class="highlight">Policy</span></h1>
+            <p class="page-hero-subtitle">How we protect your data and respect your privacy</p>
+            <p class="hero-tagline">Last updated: January 14, 2026</p>
+        </div>
+    </section>
+
+    <section class="legal-content">
+        <div class="section-container">
+            <div class="legal-card">
+                <h2>Privacy Commitment</h2>
+                <p>At SirVerse and arsalankhanzoyaistani.com, we take your privacy seriously. This policy explains how we collect, use, and protect your information.</p>
+                
+                <h3>1. Information We Collect</h3>
+                <p>For website visitors:</p>
+                <ul>
+                    <li>Basic analytics (anonymous)</li>
+                    <li>Contact form submissions (if you choose to contact us)</li>
+                    <li>Newsletter subscriptions (optional)</li>
+                </ul>
+                
+                <p>For SirVerse app users:</p>
+                <ul>
+                    <li>Student verification information</li>
+                    <li>Academic profile data</li>
+                    <li>App usage analytics (to improve features)</li>
+                    <li>User-generated content (posts, notes, messages)</li>
+                </ul>
+                
+                <h3>2. How We Use Your Information</h3>
+                <ul>
+                    <li>To provide and improve our services</li>
+                    <li>To personalize your experience</li>
+                    <li>To communicate with you about updates</li>
+                    <li>To ensure platform safety and security</li>
+                    <li>To comply with legal obligations</li>
+                </ul>
+                
+                <h3>3. Data Protection</h3>
+                <p>We implement industry-standard security measures including:</p>
+                <ul>
+                    <li>Encryption of sensitive data</li>
+                    <li>Secure server infrastructure</li>
+                    <li>Regular security audits</li>
+                    <li>Limited data access to authorized personnel only</li>
+                </ul>
+                
+                <h3>4. Your Rights</h3>
+                <p>You have the right to:</p>
+                <ul>
+                    <li>Access your personal data</li>
+                    <li>Correct inaccurate data</li>
+                    <li>Request data deletion</li>
+                    <li>Opt-out of communications</li>
+                    <li>Export your data</li>
+                </ul>
+                
+                <h3>5. Contact Us</h3>
+                <p>For privacy-related questions or requests:</p>
+                <p><strong>Email:</strong> <a href="mailto:sirversegpt@gmail.com">sirversegpt@gmail.com</a></p>
+                
+                <div class="legal-note">
+                    <p><strong>Note:</strong> This privacy policy may be updated periodically. Significant changes will be communicated through our website or app notifications.</p>
+                </div>
+            </div>
+            
+            <div class="back-home">
+                <a href="index.html" class="btn btn-primary">
+                    <i class="fas fa-home"></i> Back to Home
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="main-footer">
+        <!-- Same footer as other pages -->
+        <div class="footer-container">
+            <div class="footer-brand">
+                <a href="index.html" class="logo">
+                    <span class="logo-icon">⚡</span>
+                    <span class="logo-text">Arsalan<span class="logo-highlight">Khan</span></span>
+                </a>
+                <p>Student Developer | Founder of SirVerse | Educational Innovator</p>
+            </div>
+            
+            <div class="footer-links">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="sirverse-app.html">SirVerse App</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            
+            <div class="footer-copyright">
+                <p>© <span id="current-year-privacy">2026</span> Arsalan Khan Zoyaistani. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('current-year-privacy').textContent = new Date().getFullYear();
+        
+        document.querySelector('.mobile-menu').addEventListener('click', function() {
+            document.querySelector('.nav-links').classList.toggle('active');
+        });
+    </script>
+    
+    <style>
+        .legal-content {
+            padding: 80px 0;
+            background: #f8fafc;
+        }
+        
+        .legal-card {
+            background: white;
+            padding: 50px;
+            border-radius: var(--border-radius);
+            box-shadow: var(--shadow);
+            margin-bottom: 40px;
+        }
+        
+        .legal-card h2 {
+            color: var(--darker-color);
+            margin-bottom: 20px;
+            padding-bottom: 15px;
+            border-bottom: 2px solid var(--light-gray);
+        }
+        
+        .legal-card h3 {
+            color: var(--primary-color);
+            margin: 30px 0 15px;
+        }
+        
+        .legal-card p {
+            line-height: 1.7;
+            margin-bottom: 20px;
+            color: var(--dark-color);
+        }
+        
+        .legal-card ul {
+            padding-left: 20px;
+            margin-bottom: 20px;
+        }
+        
+        .legal-card li {
+            margin-bottom: 10px;
+            line-height: 1.6;
+            color: var(--dark-color);
+        }
+        
+        .legal-note {
+            background: rgba(79, 70, 229, 0.05);
+            padding: 20px;
+            border-radius: var(--border-radius);
+            margin-top: 40px;
+            border-left: 4px solid var(--primary-color);
+        }
+        
+        .back-home {
+            text-align: center;
+        }
+    </style>
+</body>
+</html>

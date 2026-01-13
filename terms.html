@@ -1,0 +1,188 @@
+<!-- FILE: terms.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terms of Service | SirVerse & Arsalan Khan Zoyaistani</title>
+    <meta name="description" content="Terms of service for SirVerse app and arsalankhanzoyaistani.com. User agreements and conditions.">
+    
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto+Slab:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="main-nav">
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                <span class="logo-icon">⚡</span>
+                <span class="logo-text">Arsalan<span class="logo-highlight">Khan</span></span>
+            </a>
+            <div class="nav-links">
+                <a href="index.html" class="nav-link"><i class="fas fa-home"></i> Home</a>
+                <a href="about.html" class="nav-link"><i class="fas fa-user"></i> About Me</a>
+                <a href="sirverse-app.html" class="nav-link"><i class="fas fa-rocket"></i> SirVerse App</a>
+                <a href="updates.html" class="nav-link"><i class="fas fa-newspaper"></i> Updates</a>
+                <a href="contact.html" class="nav-link"><i class="fas fa-envelope"></i> Contact</a>
+            </div>
+            <div class="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <section class="page-hero">
+        <div class="page-hero-content">
+            <h1 class="page-hero-title">Terms of <span class="highlight">Service</span></h1>
+            <p class="page-hero-subtitle">User agreements and conditions</p>
+            <p class="hero-tagline">Last updated: January 14, 2026</p>
+        </div>
+    </section>
+
+    <section class="legal-content">
+        <div class="section-container">
+            <div class="legal-card">
+                <h2>Terms of Service</h2>
+                <p>By using SirVerse app or arsalankhanzoyaistani.com, you agree to these terms. Please read them carefully.</p>
+                
+                <h3>1. Acceptance of Terms</h3>
+                <p>By accessing or using our services, you agree to be bound by these Terms of Service. If you disagree with any part, you may not use our services.</p>
+                
+                <h3>2. User Responsibilities</h3>
+                <p>As a user, you agree to:</p>
+                <ul>
+                    <li>Provide accurate information during registration</li>
+                    <li>Maintain the security of your account</li>
+                    <li>Use the services for lawful purposes only</li>
+                    <li>Respect other users' privacy and rights</li>
+                    <li>Not engage in harassment, bullying, or harmful behavior</li>
+                </ul>
+                
+                <h3>3. SirVerse App Specific Terms</h3>
+                <ul>
+                    <li>SirVerse is exclusively for verified students</li>
+                    <li>Academic integrity must be maintained</li>
+                    <li>Collaboration features should be used ethically</li>
+                    <li>AI tutor is for learning assistance, not cheating</li>
+                </ul>
+                
+                <h3>4. Intellectual Property</h3>
+                <p>All content on arsalankhanzoyaistani.com and SirVerse app, unless otherwise stated, is the property of Arsalan Khan Zoyaistani. Users retain rights to their own content but grant us license to display it on our platforms.</p>
+                
+                <h3>5. Service Modifications</h3>
+                <p>We reserve the right to modify or discontinue services at any time. We'll provide notice of significant changes when possible.</p>
+                
+                <h3>6. Limitation of Liability</h3>
+                <p>We strive to provide reliable services, but we cannot guarantee uninterrupted or error-free operation. We are not liable for any indirect damages arising from service use.</p>
+                
+                <h3>7. Governing Law</h3>
+                <p>These terms are governed by the laws of Pakistan. Any disputes shall be resolved in the courts of Layyah, Punjab.</p>
+                
+                <h3>8. Contact</h3>
+                <p>For questions about these terms:</p>
+                <p><strong>Email:</strong> <a href="mailto:sirversegpt@gmail.com">sirversegpt@gmail.com</a></p>
+                
+                <div class="legal-note">
+                    <p><strong>Note:</strong> These terms may be updated. Continued use of services constitutes acceptance of updated terms.</p>
+                </div>
+            </div>
+            
+            <div class="back-home">
+                <a href="index.html" class="btn btn-primary">
+                    <i class="fas fa-home"></i> Back to Home
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="main-footer">
+        <div class="footer-container">
+            <div class="footer-brand">
+                <a href="index.html" class="logo">
+                    <span class="logo-icon">⚡</span>
+                    <span class="logo-text">Arsalan<span class="logo-highlight">Khan</span></span>
+                </a>
+                <p>Student Developer | Founder of SirVerse | Educational Innovator</p>
+            </div>
+            
+            <div class="footer-links">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="sirverse-app.html">SirVerse App</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            
+            <div class="footer-copyright">
+                <p>© <span id="current-year-terms">2026</span> Arsalan Khan Zoyaistani. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('current-year-terms').textContent = new Date().getFullYear();
+        
+        document.querySelector('.mobile-menu').addEventListener('click', function() {
+            document.querySelector('.nav-links').classList.toggle('active');
+        });
+    </script>
+    
+    <style>
+        /* Same styles as privacy.html */
+        .legal-content {
+            padding: 80px 0;
+            background: #f8fafc;
+        }
+        
+        .legal-card {
+            background: white;
+            padding: 50px;
+            border-radius: var(--border-radius);
+            box-shadow: var(--shadow);
+            margin-bottom: 40px;
+        }
+        
+        .legal-card h2 {
+            color: var(--darker-color);
+            margin-bottom: 20px;
+            padding-bottom: 15px;
+            border-bottom: 2px solid var(--light-gray);
+        }
+        
+        .legal-card h3 {
+            color: var(--primary-color);
+            margin: 30px 0 15px;
+        }
+        
+        .legal-card p {
+            line-height: 1.7;
+            margin-bottom: 20px;
+            color: var(--dark-color);
+        }
+        
+        .legal-card ul {
+            padding-left: 20px;
+            margin-bottom: 20px;
+        }
+        
+        .legal-card li {
+            margin-bottom: 10px;
+            line-height: 1.6;
+            color: var(--dark-color);
+        }
+        
+        .legal-note {
+            background: rgba(79, 70, 229, 0.05);
+            padding: 20px;
+            border-radius: var(--border-radius);
+            margin-top: 40px;
+            border-left: 4px solid var(--primary-color);
+        }
+        
+        .back-home {
+            text-align: center;
+        }
+    </style>
+</body>
+</html>

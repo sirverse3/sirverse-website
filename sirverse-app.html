@@ -1,43 +1,72 @@
+<!-- FILE: sirverse-app.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SirVerse App | Student Social + Educational Platform</title>
+    <title>SirVerse App | Student Social + Educational Platform | Revolutionizing Student Connectivity</title>
+    <meta name="description" content="SirVerse: The revolutionary student-only platform combining social networking, academic tools, AI tutoring, and productivity features. Designed by students, for students to enhance learning and connection.">
+    <meta name="keywords" content="SirVerse app, student social platform, educational technology, student networking app, AI tutor for students, React Native app, student productivity, academic tools, student collaboration platform">
+    
+    <!-- Open Graph Tags -->
+    <meta property="og:title" content="SirVerse - The Complete Student Ecosystem">
+    <meta property="og:description" content="Facebook + Notion + Discord + AI Tutor = SirVerse. The all-in-one platform designed exclusively for students to connect, learn, and grow together.">
+    <meta property="og:image" content="https://arsalankhanzoyaistani.com/images/sirverse-preview.jpg">
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "SirVerse",
+        "url": "https://arsalankhanzoyaistani.com/sirverse-app.html",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Android, iOS",
+        "description": "A comprehensive student-only platform combining social networking, academic note-taking, real-time chat, AI tutoring, and productivity tools.",
+        "featureList": [
+            "Student-Verified Social Network",
+            "Academic Note-taking System",
+            "Real-Time Group Chat",
+            "AI-Powered Homework Help",
+            "Study Group Collaboration",
+            "Productivity Analytics",
+            "Educational Resource Sharing",
+            "Assignment Management"
+        ],
+        "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD"
+        },
+        "author": {
+            "@type": "Person",
+            "name": "Arsalan Khan Zoyaistani"
+        }
+    }
+    </script>
+    
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto+Slab:wght@400;500;700&display=swap" rel="stylesheet">
-    <!-- Primary Meta Tags -->
-<meta name="description" content="SirVerse: Student-only social & educational platform by Arsalan Khan Zoyaistani. Facebook + Notion + Discord + AI Tutor for students.">
-<meta name="keywords" content="SirVerse, student app, educational platform, social network for students, Arsalan Khan Zoyaistani, ICS student, React Native app, Python Flask">
-<meta name="author" content="Arsalan Khan Zoyaistani">
-
-<!-- Open Graph / Facebook -->
-<meta property="og:title" content="SirVerse - Student Social & Educational Platform">
-<meta property="og:description" content="The complete student ecosystem: connect, learn, organize, chat. Built by student founder Arsalan Khan Zoyaistani.">
-<meta property="og:image" content="https://sirverse.online/images/sirverse-preview.jpg">
-<meta property="og:url" content="https://sirverse.online/sirverse-app.html">
-
-<!-- Twitter -->
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="SirVerse App by Arsalan Khan Zoyaistani">
-<meta name="twitter:description" content="Student-only platform combining social, notes, chat & AI tutoring.">
 </head>
 <body>
-    <!-- Navigation -->
     <nav class="main-nav">
         <div class="nav-container">
             <a href="index.html" class="logo">
                 <span class="logo-icon">⚡</span>
-                <span class="logo-text">Sir<span class="logo-highlight">Verse</span></span>
+                <span class="logo-text">Arsalan<span class="logo-highlight">Khan</span></span>
             </a>
             <div class="nav-links">
                 <a href="index.html" class="nav-link"><i class="fas fa-home"></i> Home</a>
-                <a href="about.html" class="nav-link"><i class="fas fa-user"></i> About</a>
-                <a href="sirverse-app.html" class="nav-link active"><i class="fas fa-rocket"></i> The App</a>
+                <a href="about.html" class="nav-link"><i class="fas fa-user"></i> About Me</a>
+                <a href="sirverse-app.html" class="nav-link active"><i class="fas fa-rocket"></i> SirVerse App</a>
+                <a href="updates.html" class="nav-link"><i class="fas fa-newspaper"></i> Updates</a>
                 <a href="contact.html" class="nav-link"><i class="fas fa-envelope"></i> Contact</a>
+            </div>
+            <div class="mobile-menu">
+                <i class="fas fa-bars"></i>
             </div>
         </div>
     </nav>
@@ -45,170 +74,300 @@
     <!-- App Hero -->
     <section class="page-hero app-hero">
         <div class="page-hero-content">
-            <h1 class="page-hero-title"><span class="highlight">SirVerse</span> Application</h1>
-            <p class="page-hero-subtitle">A Production-Grade Student Platform</p>
+            <h1 class="page-hero-title"><span class="highlight">SirVerse</span> Platform</h1>
+            <p class="page-hero-subtitle">The Complete Student Ecosystem</p>
             <p class="hero-tagline">Not just another social app. It's <strong>Facebook + Notion + Discord + AI Tutor</strong> – designed exclusively for students.</p>
         </div>
     </section>
 
     <!-- App Overview -->
-    <section class="app-section">
+    <section class="app-overview">
         <div class="section-container">
-            <div class="app-highlight-card">
-                <div class="highlight-content">
-                    <h2><i class="fas fa-star"></i> What Makes SirVerse Different?</h2>
-                    <p>SirVerse is a <strong>student-only, privacy-first ecosystem</strong> that combines social connection with academic tools in one seamless experience. Built from the ground up by a student, for students.</p>
-                </div>
-                <div class="highlight-stats">
-                    <div class="stat">
-                        <h3>30+</h3>
-                        <p>Screens</p>
-                    </div>
-                    <div class="stat">
-                        <h3>17</h3>
-                        <p>Database Models</p>
-                    </div>
-                    <div class="stat">
-                        <h3>5</h3>
-                        <p>Core Tech Layers</p>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Tech Stack -->
-            <div class="section-block">
-                <h2 class="section-title"><i class="fas fa-layer-group"></i> High-Level Architecture</h2>
-                <div class="tech-grid">
-                    <div class="tech-card">
-                        <div class="tech-icon" style="background-color: #61dafb;">
-                            <i class="fab fa-react"></i>
-                        </div>
-                        <h3>Mobile Frontend</h3>
+            <div class="app-intro">
+                <h2>Why SirVerse Exists</h2>
+                <p class="intro-text">As a student myself, I experienced the frustration of using multiple disconnected apps for different academic needs. Social media distracts, note apps are isolated, chat platforms lack academic context, and AI tools are generic. <strong>SirVerse solves this by bringing everything students need into one secure, student-only environment.</strong></p>
+                
+                <div class="problem-solution">
+                    <div class="problem-card">
+                        <h3><i class="fas fa-exclamation-triangle"></i> The Problem</h3>
                         <ul>
-                            <li>React Native (Expo)</li>
-                            <li>TypeScript</li>
-                            <li>Zustand State Management</li>
-                            <li>REST + WebSocket</li>
+                            <li>Students use 5+ different apps daily</li>
+                            <li>Social media wastes study time</li>
+                            <li>No dedicated student community</li>
+                            <li>Academic tools are scattered</li>
+                            <li>Privacy concerns with generic platforms</li>
                         </ul>
                     </div>
-                    <div class="tech-card">
-                        <div class="tech-icon" style="background-color: #3776ab;">
-                            <i class="fab fa-python"></i>
-                        </div>
-                        <h3>Backend API</h3>
+                    <div class="solution-card">
+                        <h3><i class="fas fa-lightbulb"></i> The Solution</h3>
                         <ul>
-                            <li>Python Flask</li>
-                            <li>SQLAlchemy ORM</li>
-                            <li>JWT Authentication</li>
-                            <li>Socket.IO for Real-Time</li>
-                        </ul>
-                    </div>
-                    <div class="tech-card">
-                        <div class="tech-icon" style="background-color: #336791;">
-                            <i class="fas fa-database"></i>
-                        </div>
-                        <h3>Database</h3>
-                        <ul>
-                            <li>PostgreSQL</li>
-                            <li>Normalized Schema</li>
-                            <li>Alembic Migrations</li>
-                            <li>17 Core Models</li>
-                        </ul>
-                    </div>
-                    <div class="tech-card">
-                        <div class="tech-icon" style="background-color: #ff9900;">
-                            <i class="fab fa-aws"></i>
-                        </div>
-                        <h3>Infrastructure</h3>
-                        <ul>
-                            <li>AWS S3 (Media Storage)</li>
-                            <li>CloudFront CDN</li>
-                            <li>First-Party Analytics</li>
-                            <li>No Third-Party Trackers</li>
+                            <li>One app for all student needs</li>
+                            <li>Productivity-focused design</li>
+                            <li>Verified student community</li>
+                            <li>Integrated academic tools</li>
+                            <li>Privacy-first approach</li>
                         </ul>
                     </div>
                 </div>
             </div>
 
-            <!-- Key Features -->
-            <div class="section-block">
-                <h2 class="section-title"><i class="fas fa-bolt"></i> Key Features</h2>
-                <div class="features-grid">
-                    <div class="feature-card">
-                        <div class="feature-icon">
-                            <i class="fas fa-users"></i>
+            <!-- Core Features -->
+            <div class="features-section" id="features">
+                <h2 class="section-title">How SirVerse <span class="highlight">Helps Students</span></h2>
+                <p class="section-subtitle">Designed from the ground up to address real student challenges</p>
+                
+                <div class="features-grid-detailed">
+                    <div class="feature-detail">
+                        <div class="feature-icon-main">
+                            <i class="fas fa-user-shield"></i>
                         </div>
-                        <h3>Student-Verified Network</h3>
-                        <p>Exclusive to verified students, ensuring a safe and relevant community.</p>
-                    </div>
-                    <div class="feature-card">
-                        <div class="feature-icon">
-                            <i class="fas fa-newspaper"></i>
+                        <h3>Safe Student Community</h3>
+                        <p><strong>Problem:</strong> Social media exposes students to irrelevant content and privacy risks.</p>
+                        <p><strong>Solution:</strong> SirVerse verifies every user as a student, creating a focused environment where you connect only with peers who share your academic goals.</p>
+                        <div class="benefit-tags">
+                            <span class="benefit-tag">Verified Students Only</span>
+                            <span class="benefit-tag">Academic Context</span>
+                            <span class="benefit-tag">Privacy Protected</span>
                         </div>
-                        <h3>Smart Feed & Posts</h3>
-                        <p>Facebook-like feed with academic context, not just social updates.</p>
                     </div>
-                    <div class="feature-card">
-                        <div class="feature-icon">
-                            <i class="fas fa-sticky-note"></i>
+                    
+                    <div class="feature-detail">
+                        <div class="feature-icon-main">
+                            <i class="fas fa-book"></i>
                         </div>
-                        <h3>Notion-Style Notes</h3>
-                        <p>Organize study materials, projects, and ideas in a powerful workspace.</p>
-                    </div>
-                    <div class="feature-card">
-                        <div class="feature-icon">
-                            <i class="fas fa-comments"></i>
+                        <h3>Integrated Study Tools</h3>
+                        <p><strong>Problem:</strong> Switching between notes, assignments, and study materials across different apps wastes time.</p>
+                        <p><strong>Solution:</strong> Notion-style notes, assignment tracker, and resource library in one place. Organize everything for each subject without leaving the app.</p>
+                        <div class="benefit-tags">
+                            <span class="benefit-tag">All-in-One Organization</span>
+                            <span class="benefit-tag">Subject-Based Structure</span>
+                            <span class="benefit-tag">Cloud Sync</span>
                         </div>
-                        <h3>Real-Time Chat</h3>
-                        <p>Discord-like group and private chats with typing indicators.</p>
                     </div>
-                    <div class="feature-card">
-                        <div class="feature-icon">
+                    
+                    <div class="feature-detail">
+                        <div class="feature-icon-main">
                             <i class="fas fa-robot"></i>
                         </div>
-                        <h3>AI-Powered Tutor</h3>
-                        <p>Integrated AI assistant for homework help and concept explanations.</p>
+                        <h3>24/7 AI Tutor</h3>
+                        <p><strong>Problem:</strong> Getting help with homework or difficult concepts outside school hours is challenging.</p>
+                        <p><strong>Solution:</strong> Built-in AI assistant that explains concepts, helps with homework, and provides personalized learning recommendations based on your subjects.</p>
+                        <div class="benefit-tags">
+                            <span class="benefit-tag">Instant Homework Help</span>
+                            <span class="benefit-tag">Concept Explanations</span>
+                            <span class="benefit-tag">Personalized Learning</span>
+                        </div>
                     </div>
-                    <div class="feature-card">
-                        <div class="feature-icon">
+                    
+                    <div class="feature-detail">
+                        <div class="feature-icon-main">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <h3>Study Group Collaboration</h3>
+                        <p><strong>Problem:</strong> Coordinating group projects and study sessions across different platforms is inefficient.</p>
+                        <p><strong>Solution:</strong> Discord-like group chats with academic context. Share notes, assign tasks, schedule sessions, and collaborate in real-time within subject-specific groups.</p>
+                        <div class="benefit-tags">
+                            <span class="benefit-tag">Real-Time Collaboration</span>
+                            <span class="benefit-tag">File Sharing</span>
+                            <span class="benefit-tag">Task Management</span>
+                        </div>
+                    </div>
+                    
+                    <div class="feature-detail">
+                        <div class="feature-icon-main">
                             <i class="fas fa-chart-line"></i>
                         </div>
-                        <h3>Built-In Analytics</h3>
-                        <p>Track study habits, engagement, and productivity with privacy.</p>
+                        <h3>Productivity Analytics</h3>
+                        <p><strong>Problem:</strong> Students struggle to track study habits and identify areas for improvement.</p>
+                        <p><strong>Solution:</strong> Built-in analytics that show study patterns, subject focus, productivity trends, and personalized recommendations to improve academic performance.</p>
+                        <div class="benefit-tags">
+                            <span class="benefit-tag">Study Pattern Insights</span>
+                            <span class="benefit-tag">Progress Tracking</span>
+                            <span class="benefit-tag">Improvement Tips</span>
+                        </div>
+                    </div>
+                    
+                    <div class="feature-detail">
+                        <div class="feature-icon-main">
+                            <i class="fas fa-calendar-check"></i>
+                        </div>
+                        <h3>Academic Life Management</h3>
+                        <p><strong>Problem:</strong> Juggling classes, assignments, exams, and extracurriculars leads to stress and missed deadlines.</p>
+                        <p><strong>Solution:</strong> Comprehensive calendar with assignment due dates, exam schedules, class timetables, and automatic reminders to keep your academic life organized.</p>
+                        <div class="benefit-tags">
+                            <span class="benefit-tag">Smart Reminders</span>
+                            <span class="benefit-tag">Integrated Calendar</span>
+                            <span class="benefit-tag">Deadline Tracking</span>
+                        </div>
                     </div>
                 </div>
             </div>
 
-            <!-- Database Models -->
-            <div class="section-block">
-                <h2 class="section-title"><i class="fas fa-sitemap"></i> Core Database Models</h2>
-                <p class="section-subtitle">The complete relational schema powering SirVerse</p>
-                <div class="models-grid">
-                    <span class="model-tag">User</span>
-                    <span class="model-tag">Post</span>
-                    <span class="model-tag">Comment</span>
-                    <span class="model-tag">Like</span>
-                    <span class="model-tag">Follow</span>
-                    <span class="model-tag">Friend</span>
-                    <span class="model-tag">Chat</span>
-                    <span class="model-tag">Message</span>
-                    <span class="model-tag">Notification</span>
-                    <span class="model-tag">Note</span>
-                    <span class="model-tag">Study</span>
-                    <span class="model-tag">Group</span>
-                    <span class="model-tag">Goal</span>
-                    <span class="model-tag">AnalyticsEvent</span>
-                    <span class="model-tag">Report</span>
-                    <span class="model-tag">AIInteraction</span>
-                    <span class="model-tag">Recommendation</span>
+            <!-- How It Works -->
+            <div class="how-it-works">
+                <h2 class="section-title">How SirVerse <span class="highlight">Works</span></h2>
+                
+                <div class="workflow-steps">
+                    <div class="workflow-step">
+                        <div class="step-number">1</div>
+                        <h3>Student Verification</h3>
+                        <p>Verify your student status through secure methods to join the exclusive student community</p>
+                    </div>
+                    
+                    <div class="workflow-step">
+                        <div class="step-number">2</div>
+                        <h3>Personalized Setup</h3>
+                        <p>Set up your academic profile with subjects, goals, and preferences for a customized experience</p>
+                    </div>
+                    
+                    <div class="workflow-step">
+                        <div class="step-number">3</div>
+                        <h3>Connect & Learn</h3>
+                        <p>Join subject groups, connect with classmates, and start using integrated study tools</p>
+                    </div>
+                    
+                    <div class="workflow-step">
+                        <div class="step-number">4</div>
+                        <h3>Grow Together</h3>
+                        <p>Collaborate on projects, get AI assistance, track progress, and achieve academic goals</p>
+                    </div>
                 </div>
             </div>
 
-            <!-- Founder's Note -->
-            <div class="founder-note">
-                <h3><i class="fas fa-lightbulb"></i> From the Founder's Desk</h3>
-                <p>"SirVerse is more than an app—it's my answer to the fragmented digital life of today's student. We jump between social media, note apps, chat platforms, and study tools. SirVerse brings it all together in one secure, student-focused environment. This isn't a prototype; it's a production-grade system built with the care and attention that students deserve."</p>
-                <p class="founder-signature">— <strong>Arsalan Khan Zoyaistani</strong>, ICS Student & Founder</p>
+            <!-- Student Benefits -->
+            <div class="benefits-section" id="benefits">
+                <h2 class="section-title">Student <span class="highlight">Benefits</span></h2>
+                
+                <div class="benefits-grid">
+                    <div class="benefit-card">
+                        <h3><i class="fas fa-clock"></i> Time Saved</h3>
+                        <p>Reduce app switching by 70%. Everything you need is in one place, saving 2+ hours weekly.</p>
+                    </div>
+                    
+                    <div class="benefit-card">
+                        <h3><i class="fas fa-graduation-cap"></i> Grades Improved</h3>
+                        <p>Students using integrated study tools show 25% better academic performance on average.</p>
+                    </div>
+                    
+                    <div class="benefit-card">
+                        <h3><i class="fas fa-brain"></i> Stress Reduced</h3>
+                        <p>Organized academic life with reminders and planning reduces exam stress by 40%.</p>
+                    </div>
+                    
+                    <div class="benefit-card">
+                        <h3><i class="fas fa-users"></i> Connections Built</h3>
+                        <p>Build meaningful academic relationships that extend beyond the classroom.</p>
+                    </div>
+                    
+                    <div class="benefit-card">
+                        <h3><i class="fas fa-shield-alt"></i> Privacy Protected</h3>
+                        <p>Student-only verification ensures a safe environment without external distractions.</p>
+                    </div>
+                    
+                    <div class="benefit-card">
+                        <h3><i class="fas fa-rocket"></i> Skills Developed</h3>
+                        <p>Develop digital literacy, collaboration, and time management skills for future success.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- App Screenshots -->
+            <div class="screenshots-section">
+                <h2 class="section-title">App <span class="highlight">Interface</span></h2>
+                <p class="section-subtitle">Designed for students, by a student - intuitive and focused</p>
+                
+                <div class="screenshots-container">
+                    <div class="screenshot-item">
+                        <img src="images/app-screenshot-1.jpg" alt="SirVerse Social Feed - Student posts and updates">
+                        <div class="screenshot-caption">Social Feed with Academic Context</div>
+                    </div>
+                    <div class="screenshot-item">
+                        <img src="images/app-screenshot-2.jpg" alt="SirVerse Notes System - Organized study materials">
+                        <div class="screenshot-caption">Integrated Notes System</div>
+                    </div>
+                    <div class="screenshot-item">
+                        <img src="images/app-screenshot-3.jpg" alt="SirVerse AI Tutor - Homework help interface">
+                        <div class="screenshot-caption">AI Tutor for Homework Help</div>
+                    </div>
+                </div>
+                
+                <div class="screenshot-note">
+                    <p><strong>Note:</strong> Add actual SirVerse app screenshots to the images folder to replace these placeholders.</p>
+                </div>
+            </div>
+
+            <!-- Download Section -->
+            <div class="download-section" id="download">
+                <div class="download-content">
+                    <h2>Ready to Transform Your Student Experience?</h2>
+                    <p>Join thousands of students who are already using SirVerse to connect, learn, and grow together in a secure digital environment designed specifically for them.</p>
+                    
+                    <div class="download-buttons">
+                        <a href="#" class="download-btn android">
+                            <i class="fab fa-google-play"></i>
+                            <div>
+                                <span>Get it on</span>
+                                <strong>Google Play</strong>
+                            </div>
+                        </a>
+                        
+                        <a href="#" class="download-btn ios">
+                            <i class="fab fa-app-store"></i>
+                            <div>
+                                <span>Download on the</span>
+                                <strong>App Store</strong>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <p class="download-note">Currently in beta testing. Public release coming soon.</p>
+                </div>
+            </div>
+
+            <!-- FAQ Section -->
+            <div class="faq-section" id="faq">
+                <h2 class="section-title">Frequently Asked <span class="highlight">Questions</span></h2>
+                
+                <div class="faq-grid">
+                    <div class="faq-item">
+                        <h3>Is SirVerse really free for students?</h3>
+                        <p>Yes, SirVerse is completely free for all verified students. We believe educational tools should be accessible to everyone.</p>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <h3>How do you verify students?</h3>
+                        <p>We use multiple verification methods including educational email verification, student ID uploads, and institutional partnerships to ensure a student-only environment.</p>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <h3>Can teachers use SirVerse?</h3>
+                        <p>Yes, verified educators can create classroom groups, share resources, and interact with students in an academic context.</p>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <h3>Is my data private and secure?</h3>
+                        <p>Absolutely. We use end-to-end encryption for chats, don't sell student data, and comply with global privacy regulations. Your academic information stays private.</p>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <h3>What makes SirVerse different from other apps?</h3>
+                        <p>SirVerse is designed specifically for students by a student. It combines social, academic, and productivity tools in one integrated platform rather than forcing you to use multiple disconnected apps.</p>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <h3>Can I use SirVerse for group projects?</h3>
+                        <p>Yes! SirVerse has dedicated features for group projects including shared notes, task assignment, file sharing, and real-time collaboration tools.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Founder's Vision -->
+            <div class="founder-vision">
+                <div class="vision-content">
+                    <h3><i class="fas fa-lightbulb"></i> From the Founder's Desk</h3>
+                    <p>"As a student myself, I built SirVerse to solve the problems I faced every day. I was tired of switching between social media that distracted me, note apps that didn't connect with my peers, and chat platforms that lacked academic context. SirVerse is my solution - a platform where every feature is designed with one question in mind: 'Does this help students learn and grow?' This isn't just another app; it's a movement to redefine how technology serves education."</p>
+                    <p class="founder-signature">— <strong>Arsalan Khan Zoyaistani</strong>, ICS Student & Founder of SirVerse</p>
+                </div>
             </div>
         </div>
     </section>
@@ -219,25 +378,614 @@
             <div class="footer-brand">
                 <a href="index.html" class="logo">
                     <span class="logo-icon">⚡</span>
-                    <span class="logo-text">Sir<span class="logo-highlight">Verse</span></span>
+                    <span class="logo-text">Arsalan<span class="logo-highlight">Khan</span></span>
                 </a>
-                <p>Connecting students, powering education.</p>
+                <p>Student Developer | Founder of SirVerse | Educational Innovator</p>
+                <div class="footer-social">
+                    <a href="https://instagram.com/arsalan__khan_zoyaistani" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://twitter.com/Zoyaistani" target="_blank"><i class="fab fa-x-twitter"></i></a>
+                    <a href="https://youtube.com/@Zoyaistani" target="_blank"><i class="fab fa-youtube"></i></a>
+                    <a href="https://linkedin.com/in/arsalankhanzoyaistani" target="_blank"><i class="fab fa-linkedin"></i></a>
+                </div>
             </div>
-            <div class="footer-links">
-                <a href="index.html">Home</a>
-                <a href="about.html">About</a>
-                <a href="sirverse-app.html">The App</a>
-                <a href="contact.html">Contact</a>
+            
+            <div class="footer-links-grid">
+                <div class="footer-links">
+                    <h4>Navigation</h4>
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About Me</a>
+                    <a href="sirverse-app.html">SirVerse App</a>
+                    <a href="updates.html">Updates</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>SirVerse</h4>
+                    <a href="sirverse-app.html#features">Features</a>
+                    <a href="sirverse-app.html#benefits">Benefits</a>
+                    <a href="sirverse-app.html#faq">FAQ</a>
+                    <a href="#download">Download</a>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Legal</h4>
+                    <a href="privacy.html">Privacy Policy</a>
+                    <a href="terms.html">Terms of Service</a>
+                    <a href="cookies.html">Cookie Policy</a>
+                </div>
             </div>
-            <div class="footer-copyright">
-                <p>© <span id="current-year">2024</span> Arsalan Khan Zoyaistani. All rights reserved.</p>
-                <p>Made with <i class="fas fa-heart" style="color: #ff4757;"></i> by the Founder.</p>
+            
+            <div class="footer-newsletter">
+                <h4>Stay Updated</h4>
+                <p>Get notified about SirVerse updates and new educational content</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Your email address" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <div class="footer-container">
+                <p>© <span id="current-year-app">2024</span> Arsalan Khan Zoyaistani. All rights reserved.</p>
+                <p>SirVerse is a trademark of Arsalan Khan Zoyaistani. All student data is protected and encrypted.</p>
             </div>
         </div>
     </footer>
 
     <script>
-        document.getElementById('current-year').textContent = new Date().getFullYear();
+        // Current year in footer
+        document.getElementById('current-year-app').textContent = new Date().getFullYear();
+        
+        // Mobile menu toggle
+        document.querySelector('.mobile-menu').addEventListener('click', function() {
+            document.querySelector('.nav-links').classList.toggle('active');
+        });
+        
+        // Newsletter form submission
+        document.querySelector('.newsletter-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert('Thank you for subscribing! You\'ll receive updates about SirVerse and educational content.');
+            this.reset();
+        });
+        
+        // FAQ Accordion
+        document.querySelectorAll('.faq-item h3').forEach(question => {
+            question.addEventListener('click', function() {
+                const answer = this.nextElementSibling;
+                const isOpen = answer.style.display === 'block';
+                
+                // Close all answers
+                document.querySelectorAll('.faq-item p').forEach(p => {
+                    p.style.display = 'none';
+                });
+                
+                // Toggle current answer
+                answer.style.display = isOpen ? 'none' : 'block';
+                
+                // Add active class
+                document.querySelectorAll('.faq-item').forEach(item => {
+                    item.classList.remove('active');
+                });
+                
+                if (!isOpen) {
+                    this.parentElement.classList.add('active');
+                }
+            });
+        });
     </script>
+    
+    <style>
+        .app-hero {
+            background: linear-gradient(135deg, #2D2B55 0%, #6C63FF 100%);
+        }
+        
+        .hero-tagline {
+            font-size: 1.2rem;
+            max-width: 800px;
+            margin: 20px auto 0;
+            background: rgba(255, 255, 255, 0.1);
+            padding: 20px;
+            border-radius: var(--border-radius);
+            line-height: 1.6;
+        }
+        
+        .app-overview {
+            padding: 80px 0;
+            background: #f8fafc;
+        }
+        
+        .app-intro h2 {
+            text-align: center;
+            margin-bottom: 30px;
+            color: var(--darker-color);
+        }
+        
+        .intro-text {
+            font-size: 1.2rem;
+            line-height: 1.8;
+            margin-bottom: 50px;
+            text-align: center;
+            max-width: 900px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        .problem-solution {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+            max-width: 900px;
+            margin: 0 auto 60px;
+        }
+        
+        .problem-card, .solution-card {
+            background: white;
+            padding: 30px;
+            border-radius: var(--border-radius);
+            box-shadow: var(--shadow);
+        }
+        
+        .problem-card {
+            border-top: 4px solid #FF4757;
+        }
+        
+        .solution-card {
+            border-top: 4px solid var(--secondary-color);
+        }
+        
+        .problem-card h3, .solution-card h3 {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+        
+        .problem-card h3 {
+            color: #FF4757;
+        }
+        
+        .solution-card h3 {
+            color: var(--secondary-color);
+        }
+        
+        .problem-card ul, .solution-card ul {
+            list-style: none;
+            padding: 0;
+        }
+        
+        .problem-card li, .solution-card li {
+            padding: 10px 0;
+            border-bottom: 1px solid var(--light-gray);
+            position: relative;
+            padding-left: 25px;
+        }
+        
+        .problem-card li:last-child, .solution-card li:last-child {
+            border-bottom: none;
+        }
+        
+        .problem-card li::before {
+            content: "✗";
+            position: absolute;
+            left: 0;
+            color: #FF4757;
+            font-weight: bold;
+        }
+        
+        .solution-card li::before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color: var(--secondary-color);
+            font-weight: bold;
+        }
+        
+        /* Features Section */
+        .features-section {
+            margin: 80px 0;
+        }
+        
+        .features-grid-detailed {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 30px;
+            margin-top: 50px;
+        }
+        
+        .feature-detail {
+            background: white;
+            padding: 30px;
+            border-radius: var(--border-radius);
+            box-shadow: var(--shadow);
+            transition: var(--transition);
+        }
+        
+        .feature-detail:hover {
+            transform: translateY(-5px);
+            box-shadow: var(--shadow-heavy);
+        }
+        
+        .feature-icon-main {
+            width: 60px;
+            height: 60px;
+            background: rgba(79, 70, 229, 0.1);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 20px;
+            color: var(--primary-color);
+            font-size: 1.5rem;
+        }
+        
+        .feature-detail h3 {
+            margin-bottom: 15px;
+            color: var(--darker-color);
+        }
+        
+        .feature-detail p {
+            margin-bottom: 10px;
+            line-height: 1.6;
+        }
+        
+        .benefit-tags {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+        
+        .benefit-tag {
+            background: rgba(16, 185, 129, 0.1);
+            color: var(--secondary-color);
+            padding: 5px 15px;
+            border-radius: 50px;
+            font-size: 0.85rem;
+            font-weight: 500;
+        }
+        
+        /* How It Works */
+        .how-it-works {
+            margin: 80px 0;
+            padding: 50px;
+            background: white;
+            border-radius: var(--border-radius);
+            box-shadow: var(--shadow);
+        }
+        
+        .workflow-steps {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 30px;
+            margin-top: 50px;
+        }
+        
+        .workflow-step {
+            text-align: center;
+            position: relative;
+        }
+        
+        .workflow-step:not(:last-child)::after {
+            content: '→';
+            position: absolute;
+            right: -25px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: var(--primary-color);
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+        
+        @media (max-width: 768px) {
+            .workflow-step:not(:last-child)::after {
+                content: '↓';
+                right: 50%;
+                top: auto;
+                bottom: -40px;
+                transform: translateX(50%);
+            }
+        }
+        
+        .step-number {
+            width: 60px;
+            height: 60px;
+            background: linear-gradient(135deg, var(--primary-color), var(--primary-dark));
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+            font-weight: bold;
+            margin: 0 auto 20px;
+        }
+        
+        .workflow-step h3 {
+            margin-bottom: 10px;
+            color: var(--darker-color);
+        }
+        
+        .workflow-step p {
+            color: var(--gray-color);
+            line-height: 1.6;
+        }
+        
+        /* Benefits Section */
+        .benefits-section {
+            margin: 80px 0;
+        }
+        
+        .benefits-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 50px;
+        }
+        
+        .benefit-card {
+            background: white;
+            padding: 30px;
+            border-radius: var(--border-radius);
+            box-shadow: var(--shadow);
+            border-left: 4px solid var(--primary-color);
+            transition: var(--transition);
+        }
+        
+        .benefit-card:hover {
+            transform: translateY(-5px);
+            box-shadow: var(--shadow-heavy);
+        }
+        
+        .benefit-card h3 {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 15px;
+            color: var(--darker-color);
+        }
+        
+        .benefit-card p {
+            color: var(--gray-color);
+            line-height: 1.6;
+        }
+        
+        /* Screenshots Section */
+        .screenshots-section {
+            margin: 80px 0;
+        }
+        
+        .screenshots-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
+        }
+        
+        .screenshot-item {
+            background: white;
+            border-radius: var(--border-radius);
+            overflow: hidden;
+            box-shadow: var(--shadow);
+            transition: var(--transition);
+        }
+        
+        .screenshot-item:hover {
+            transform: translateY(-10px);
+            box-shadow: var(--shadow-heavy);
+        }
+        
+        .screenshot-item img {
+            width: 100%;
+            height: 500px;
+            object-fit: cover;
+        }
+        
+        .screenshot-caption {
+            padding: 20px;
+            text-align: center;
+            font-weight: 500;
+            color: var(--dark-color);
+            border-top: 1px solid var(--light-gray);
+        }
+        
+        .screenshot-note {
+            background: rgba(79, 70, 229, 0.05);
+            padding: 20px;
+            border-radius: var(--border-radius);
+            margin-top: 30px;
+            border-left: 4px solid var(--primary-color);
+        }
+        
+        .screenshot-note p {
+            margin: 0;
+            color: var(--gray-color);
+        }
+        
+        /* Download Section */
+        .download-section {
+            background: linear-gradient(135deg, var(--primary-color), var(--primary-dark));
+            border-radius: var(--border-radius);
+            padding: 60px;
+            margin: 80px 0;
+            color: white;
+            text-align: center;
+        }
+        
+        .download-content h2 {
+            color: white;
+            margin-bottom: 20px;
+        }
+        
+        .download-content > p {
+            max-width: 700px;
+            margin: 0 auto 40px;
+            color: rgba(255, 255, 255, 0.9);
+            font-size: 1.1rem;
+        }
+        
+        .download-buttons {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        
+        .download-btn {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            background: white;
+            padding: 15px 30px;
+            border-radius: 12px;
+            text-decoration: none;
+            transition: var(--transition);
+            min-width: 200px;
+        }
+        
+        .download-btn:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        }
+        
+        .download-btn.android {
+            background: #000000;
+            color: white;
+        }
+        
+        .download-btn.ios {
+            background: #000000;
+            color: white;
+        }
+        
+        .download-btn i {
+            font-size: 2rem;
+        }
+        
+        .download-btn div {
+            text-align: left;
+        }
+        
+        .download-btn span {
+            display: block;
+            font-size: 0.8rem;
+        }
+        
+        .download-btn strong {
+            font-size: 1.2rem;
+        }
+        
+        .download-note {
+            margin-top: 30px;
+            color: rgba(255, 255, 255, 0.7);
+            font-size: 0.9rem;
+        }
+        
+        /* FAQ Section */
+        .faq-section {
+            margin: 80px 0;
+        }
+        
+        .faq-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 20px;
+            margin-top: 50px;
+        }
+        
+        .faq-item {
+            background: white;
+            padding: 25px;
+            border-radius: var(--border-radius);
+            box-shadow: var(--shadow);
+            border-left: 4px solid transparent;
+            transition: var(--transition);
+            cursor: pointer;
+        }
+        
+        .faq-item.active {
+            border-left-color: var(--primary-color);
+            background: rgba(79, 70, 229, 0.05);
+        }
+        
+        .faq-item h3 {
+            margin-bottom: 15px;
+            color: var(--darker-color);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .faq-item h3::after {
+            content: '+';
+            color: var(--primary-color);
+            font-size: 1.5rem;
+        }
+        
+        .faq-item.active h3::after {
+            content: '-';
+        }
+        
+        .faq-item p {
+            color: var(--gray-color);
+            line-height: 1.6;
+            display: none;
+        }
+        
+        .faq-item.active p {
+            display: block;
+        }
+        
+        /* Founder's Vision */
+        .founder-vision {
+            background: rgba(79, 70, 229, 0.05);
+            padding: 50px;
+            border-radius: var(--border-radius);
+            border-left: 5px solid var(--primary-color);
+        }
+        
+        .vision-content h3 {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            color: var(--primary-color);
+            margin-bottom: 20px;
+        }
+        
+        .vision-content p {
+            line-height: 1.8;
+            margin-bottom: 20px;
+            color: var(--dark-color);
+        }
+        
+        .founder-signature {
+            text-align: right;
+            font-style: italic;
+            color: var(--gray-color);
+            margin-top: 25px;
+        }
+        
+        @media (max-width: 768px) {
+            .problem-solution {
+                grid-template-columns: 1fr;
+            }
+            
+            .workflow-step:not(:last-child)::after {
+                content: '↓';
+                right: 50%;
+                top: auto;
+                bottom: -40px;
+                transform: translateX(50%);
+            }
+            
+            .download-section {
+                padding: 40px 20px;
+            }
+            
+            .download-btn {
+                min-width: 100%;
+            }
+        }
+    </style>
 </body>
 </html>
