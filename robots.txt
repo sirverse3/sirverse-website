@@ -1,0 +1,13 @@
+User-agent: *
+Allow: /
+
+# Directories
+Disallow: /cgi-bin/
+Disallow: /admin/
+Disallow: /includes/
+
+# Files
+Disallow: /license.txt
+Disallow: /readme.html
+
+Sitemap: https://arsalankhanzoyaistani.com/sitemap.xml
