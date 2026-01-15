@@ -1,4 +1,3 @@
-<!-- FILE: about.html - UPDATED -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -14,187 +13,328 @@
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
     
     <!-- Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     
-    <!-- Styles -->
-    <link rel="stylesheet" href="styles/style.css">
+    <!-- Touch Icons -->
+    <link rel="apple-touch-icon" href="images/twitter-card.jpg">
 </head>
 <body>
+    <!-- Navigation -->
     <nav class="main-nav">
         <div class="nav-container">
             <a href="index.html" class="logo">
                 <span class="logo-icon">⚡</span>
                 <span class="logo-text">Arsalan<span class="logo-highlight">Khan</span></span>
             </a>
-            <div class="nav-links">
-                <a href="index.html" class="nav-link"><i class="fas fa-home"></i> Home</a>
-                <a href="about.html" class="nav-link active"><i class="fas fa-user"></i> About</a>
-                <a href="sirverse-app.html" class="nav-link"><i class="fas fa-rocket"></i> SirVerse</a>
-                <a href="updates.html" class="nav-link"><i class="fas fa-newspaper"></i> Updates</a>
-                <a href="contact.html" class="nav-link"><i class="fas fa-envelope"></i> Contact</a>
+            
+            <div class="nav-links" id="navLinks">
+                <a href="index.html" class="nav-link"><i class="fas fa-home"></i><span>Home</span></a>
+                <a href="about.html" class="nav-link active"><i class="fas fa-user"></i><span>About</span></a>
+                <a href="sirverse-app.html" class="nav-link"><i class="fas fa-rocket"></i><span>SirVerse</span></a>
+                <a href="updates.html" class="nav-link"><i class="fas fa-newspaper"></i><span>Updates</span></a>
+                <a href="contact.html" class="nav-link"><i class="fas fa-envelope"></i><span>Contact</span></a>
             </div>
-            <div class="mobile-menu">
+            
+            <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Menu">
                 <i class="fas fa-bars"></i>
-            </div>
+            </button>
         </div>
     </nav>
 
-    <!-- About Hero -->
+    <!-- Hero Section -->
     <section class="page-hero">
-        <div class="page-hero-content">
-            <h1 class="page-hero-title">My <span class="highlight">Journey</span></h1>
-            <p class="page-hero-subtitle">From ICS Student to Tech Founder - The Complete Story</p>
-            <div class="hero-badges">
-                <span class="badge"><i class="fas fa-graduation-cap"></i> ICS Student</span>
-                <span class="badge"><i class="fas fa-crown"></i> Founder & CEO</span>
-                <span class="badge"><i class="fab fa-youtube"></i> Content Creator</span>
-                <span class="badge"><i class="fas fa-code"></i> Developer</span>
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-badges">
+                    <span class="badge"><i class="fas fa-graduation-cap"></i>Student </span>
+                    <span class="badge"><i class="fas fa-crown"></i>Founder</span>
+                    <span class="badge"><i class="fab fa-youtube"></i>Creator</span>
+                    <span class="badge"><i class="fas fa-code"></i>Developer</span>
+                </div>
+                
+                <h1 class="hero-title">
+                    <span class="hero-main">Arsalan Khan Zoyaistani</span>
+                    <span class="hero-subtitle">Student Developer & Founder of SirVerse</span>
+                </h1>
+                
+                <p class="hero-description">
+                    A passionate ICS student from Government Graduate College Layyah, 
+                    building technology to revolutionize student learning and connection.
+                </p>
+                
+                <div class="hero-stats">
+                    <div class="stat">
+                        <div class="stat-number">3+</div>
+                        <div class="stat-label">Months</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">10+</div>
+                        <div class="stat-label">App Features</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">1</div>
+                        <div class="stat-label">Big Vision</div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
     <!-- About Content -->
-    <section class="about-content">
+    <section class="about-section">
         <div class="container">
             <div class="about-grid">
+                <!-- Main Content -->
                 <div class="about-main">
-                    <h2><i class="fas fa-user-graduate"></i> My Story</h2>
-                    <p>I'm Arsalan Khan Zoyaistani, a 12th-grade ICS (Intermediate in Computer Science) student at Government Graduate College Layyah. Born and raised in Chak no. 133 TDA Layyah, Pakistan, I've always been fascinated by technology and its potential to transform education.</p>
-                    
-                    <div class="education-timeline">
-                        <div class="timeline-item">
-                            <div class="timeline-marker">
-                                <i class="fas fa-baby"></i>
-                            </div>
-                            <div class="timeline-content">
-                                <h3>Early Beginnings (2007)</h3>
-                                <p>Born and raised in Layyah, Pakistan. Growing up in a small town taught me the value of hard work and the importance of accessible education.</p>
-                            </div>
+                    <!-- My Journey Section -->
+                    <div class="journey-section">
+                        <div class="section-header">
+                            <h2><i class="fas fa-road"></i> My Journey</h2>
+                            <p class="section-subtitle">From a small town student to tech founder</p>
                         </div>
                         
-                        <div class="timeline-item">
-                            <div class="timeline-marker">
-                                <i class="fas fa-school"></i>
+                        <div class="journey-timeline">
+                            <!-- Journey Item 1 -->
+                            <div class="journey-item">
+                                <div class="journey-year">2007</div>
+                                <div class="journey-content">
+                                    <div class="journey-icon">
+                                        <i class="fas fa-map-marker-alt"></i>
+                                    </div>
+                                    <div class="journey-details">
+                                        <h3>Roots in Layyah</h3>
+                                        <p>Born and raised in Chak no. 133 TDA Layyah, Pakistan. Growing up in a small agricultural town taught me resilience, hard work, and the importance of community. Even as a child, I was fascinated by how technology could connect people across distances.</p>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="timeline-content">
-                                <h3>Matriculation (2024)</h3>
-                                <p>Completed Matriculation from Government High School Mian Wala Jadeed with excellent grades in Science subjects, laying the foundation for my technical journey.</p>
+                            
+                            <!-- Journey Item 2 -->
+                            <div class="journey-item">
+                                <div class="journey-year">2019-2024</div>
+                                <div class="journey-content">
+                                    <div class="journey-icon">
+                                        <i class="fas fa-graduation-cap"></i>
+                                    </div>
+                                    <div class="journey-details">
+                                        <h3>Academic Foundation</h3>
+                                        <p>Completed Matriculation from Government High School Mian Wala Jadeed with distinction in Science subjects. This period solidified my interest in mathematics and problem-solving, laying the groundwork for my technical journey. I spent countless hours in computer labs, teaching myself programming basics.</p>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                        
-                        <div class="timeline-item current">
-                            <div class="timeline-marker">
-                                <i class="fas fa-laptop-code"></i>
+                            
+                            <!-- Journey Item 3 -->
+                            <div class="journey-item current">
+                                <div class="journey-year">2024-Present</div>
+                                <div class="journey-content">
+                                    <div class="journey-icon">
+                                        <i class="fas fa-laptop-code"></i>
+                                    </div>
+                                    <div class="journey-details">
+                                        <h3>The Turning Point</h3>
+                                        <p>Started ICS (Intermediate in Computer Science) at Government Graduate College Layyah. This is where everything changed. While studying Physics, Mathematics, and Computer Science, I realized the gap between traditional education and modern student needs. I began coding seriously, building small projects that eventually evolved into SirVerse.</p>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="timeline-content">
-                                <h3>ICS & Tech Journey (2024-2026)</h3>
-                                <p>Currently pursuing ICS at Government Graduate College Layyah, specializing in Physics, Mathematics, and Computer Science. This is where I began coding and building projects.</p>
+                            
+                            <!-- Journey Item 4 -->
+                            <div class="journey-item">
+                                <div class="journey-year">2025</div>
+                                <div class="journey-content">
+                                    <div class="journey-icon">
+                                        <i class="fas fa-lightbulb"></i>
+                                    </div>
+                                    <div class="journey-details">
+                                        <h3>The SirVerse Idea</h3>
+                                        <p>As a student, I faced the same problems every day: switching between 5+ apps for studying, socializing, and organizing. The frustration led to an idea - what if everything students need was in one place? SirVerse was born from this simple question. I started designing and coding the platform during early mornings and late nights, balancing college studies with development.</p>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                        
-                        <div class="timeline-item">
-                            <div class="timeline-marker">
-                                <i class="fas fa-rocket"></i>
-                            </div>
-                            <div class="timeline-content">
-                                <h3>SirVerse & Future (2026+)</h3>
-                                <p>Founded SirVerse - a revolutionary student-only platform. Planning to pursue higher education in Computer Science while continuing to innovate in educational technology.</p>
+                            
+                            <!-- Journey Item 5 -->
+                            <div class="journey-item">
+                                <div class="journey-year">2026+</div>
+                                <div class="journey-content">
+                                    <div class="journey-icon">
+                                        <i class="fas fa-rocket"></i>
+                                    </div>
+                                    <div class="journey-details">
+                                        <h3>Vision for the Future</h3>
+                                        <p>Launching SirVerse in January 2026 marks just the beginning. I plan to pursue higher education in Computer Science while continuing to innovate in educational technology. My goal is to create tools that make learning more accessible, collaborative, and effective for students everywhere, starting from my hometown and reaching globally.</p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                     
-                    <div class="tech-stack">
-                        <h3><i class="fas fa-code"></i> My Technical Skills</h3>
+                    <!-- Technical Skills -->
+                    <div class="skills-section">
+                        <div class="section-header">
+                            <h2><i class="fas fa-code"></i> Technical Skills</h2>
+                            <p class="section-subtitle">Building the future with code</p>
+                        </div>
+                        
                         <div class="skills-grid">
-                            <div class="skill-item">
-                                <div class="skill-header">
-                                    <span class="skill-name">React Native</span>
-                                    <span class="skill-level">Advanced</span>
+                            <div class="skill-card">
+                                <div class="skill-icon">
+                                    <i class="fab fa-react"></i>
                                 </div>
-                                <div class="skill-bar">
-                                    <div class="skill-progress" style="width: 85%"></div>
-                                </div>
-                            </div>
-                            <div class="skill-item">
-                                <div class="skill-header">
-                                    <span class="skill-name">Python Flask</span>
-                                    <span class="skill-level">Advanced</span>
-                                </div>
-                                <div class="skill-bar">
-                                    <div class="skill-progress" style="width: 80%"></div>
+                                <div class="skill-content">
+                                    <h3>React Native</h3>
+                                    <p>Building cross-platform mobile apps with smooth performance and native feel</p>
+                                    <div class="skill-level">
+                                        <div class="level-bar">
+                                            <div class="level-progress" style="width: 85%"></div>
+                                        </div>
+                                        <span>85%</span>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="skill-item">
-                                <div class="skill-header">
-                                    <span class="skill-name">JavaScript</span>
-                                    <span class="skill-level">Intermediate</span>
+                            
+                            <div class="skill-card">
+                                <div class="skill-icon">
+                                    <i class="fab fa-python"></i>
                                 </div>
-                                <div class="skill-bar">
-                                    <div class="skill-progress" style="width: 75%"></div>
+                                <div class="skill-content">
+                                    <h3>Python & Flask</h3>
+                                    <p>Developing robust backends and APIs for web and mobile applications</p>
+                                    <div class="skill-level">
+                                        <div class="level-bar">
+                                            <div class="level-progress" style="width: 80%"></div>
+                                        </div>
+                                        <span>80%</span>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="skill-item">
-                                <div class="skill-header">
-                                    <span class="skill-name">UI/UX Design</span>
-                                    <span class="skill-level">Intermediate</span>
+                            
+                            <div class="skill-card">
+                                <div class="skill-icon">
+                                    <i class="fab fa-js"></i>
                                 </div>
-                                <div class="skill-bar">
-                                    <div class="skill-progress" style="width: 70%"></div>
+                                <div class="skill-content">
+                                    <h3>JavaScript</h3>
+                                    <p>Creating dynamic and interactive web experiences with modern frameworks</p>
+                                    <div class="skill-level">
+                                        <div class="level-bar">
+                                            <div class="level-progress" style="width: 75%"></div>
+                                        </div>
+                                        <span>75%</span>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="skill-card">
+                                <div class="skill-icon">
+                                    <i class="fas fa-paint-brush"></i>
+                                </div>
+                                <div class="skill-content">
+                                    <h3>UI/UX Design</h3>
+                                    <p>Designing intuitive and beautiful interfaces focused on user experience</p>
+                                    <div class="skill-level">
+                                        <div class="level-bar">
+                                            <div class="level-progress" style="width: 70%"></div>
+                                        </div>
+                                        <span>70%</span>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
                 
+                <!-- Sidebar -->
                 <div class="about-sidebar">
+                    <!-- Profile Card -->
                     <div class="profile-card">
                         <div class="profile-image">
-                            <img src="images/arsalan-formal.jpg" alt="Arsalan Khan Zoyaistani">
+                            <img src="images/arsalan-formal.jpg" alt="Arsalan Khan Zoyaistani" loading="lazy">
+                            <div class="profile-badge">
+                                <i class="fas fa-star"></i>
+                                Founder & CEO
+                            </div>
                         </div>
+                        
                         <div class="profile-info">
                             <h3>Arsalan Khan Zoyaistani</h3>
-                            <p class="profile-title">Student | Founder | Developer</p>
+                            <p class="profile-tagline">Building the future of student technology</p>
                             
                             <div class="profile-details">
-                                <div class="detail-item">
+                                <div class="detail">
                                     <i class="fas fa-map-marker-alt"></i>
                                     <div>
-                                        <h4>Location</h4>
-                                        <p>Layyah, Pakistan</p>
+                                        <span class="detail-label">Location</span>
+                                        <span class="detail-value">Layyah, Pakistan</span>
                                     </div>
                                 </div>
-                                <div class="detail-item">
+                                
+                                <div class="detail">
                                     <i class="fas fa-graduation-cap"></i>
                                     <div>
-                                        <h4>Education</h4>
-                                        <p>ICS at GGC Layyah</p>
+                                        <span class="detail-label">Education</span>
+                                        <span class="detail-value">ICS at GGC Layyah</span>
                                     </div>
                                 </div>
-                                <div class="detail-item">
+                                
+                                <div class="detail">
                                     <i class="fas fa-rocket"></i>
                                     <div>
-                                        <h4>Project</h4>
-                                        <p>SirVerse Founder</p>
+                                        <span class="detail-label">Project</span>
+                                        <span class="detail-value">SirVerse Founder</span>
                                     </div>
                                 </div>
+                                
+                                <div class="detail">
+                                    <i class="fas fa-calendar-alt"></i>
+                                    <div>
+                                        <span class="detail-label">Birth Year</span>
+                                        <span class="detail-value">2007</span>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="profile-quote">
+                                <i class="fas fa-quote-left"></i>
+                                <p>Technology should solve real problems, not create new ones. That's why I build.</p>
                             </div>
                         </div>
                     </div>
                     
+                    <!-- YouTube Card -->
                     <div class="youtube-card">
-                        <h3><i class="fab fa-youtube"></i> YouTube Content</h3>
-                        <p>Creating educational content to help students:</p>
-                        <ul class="youtube-topics">
-                            <li><i class="fas fa-robot"></i> AI for Students</li>
-                            <li><i class="fas fa-brain"></i> Productivity Tips</li>
-                            <li><i class="fas fa-chart-line"></i> Study Strategies</li>
-                            <li><i class="fas fa-clock"></i> Time Management</li>
+                        <div class="card-header">
+                            <i class="fab fa-youtube"></i>
+                            <h3>YouTube Creator</h3>
+                        </div>
+                        
+                        <p class="card-description">
+                            Sharing knowledge and helping students through educational content:
+                        </p>
+                        
+                        <ul class="topics-list">
+                            <li>
+                                <i class="fas fa-robot"></i>
+                                <span>AI Tools for Students</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-brain"></i>
+                                <span>Productivity Strategies</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-book"></i>
+                                <span>Study Techniques</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-code"></i>
+                                <span>Coding Tutorials</span>
+                            </li>
                         </ul>
-                        <a href="https://youtube.com/@Zoyaistani" target="_blank" class="btn btn-accent" style="width: 100%; margin-top: 1rem;">
-                            <i class="fab fa-youtube"></i> Subscribe @Zoyaistani
+                        
+                        <a href="https://youtube.com/@Zoyaistani" target="_blank" class="youtube-btn">
+                            <i class="fab fa-youtube"></i>
+                            <span>Subscribe @Zoyaistani</span>
+                            <i class="fas fa-external-link-alt"></i>
                         </a>
                     </div>
                 </div>
@@ -202,43 +342,57 @@
             
             <!-- Daily Routine -->
             <div class="routine-section">
-                <h2 class="section-title">A Day in My <span class="text-gradient">Life</span></h2>
-                <p class="section-subtitle">Balancing studies, development, and content creation</p>
+                <div class="section-header">
+                    <h2><i class="fas fa-calendar-day"></i> A Day in My Life</h2>
+                    <p class="section-subtitle">Balancing student life with entrepreneurship</p>
+                </div>
                 
                 <div class="routine-timeline">
                     <div class="routine-item">
-                        <div class="routine-time">06:00 AM</div>
+                        <div class="routine-time">05:30 AM</div>
                         <div class="routine-content">
-                            <h3>Morning Study Session</h3>
-                            <p>Reviewing ICS subjects - Physics, Mathematics, and Computer Science</p>
+                            <h3>Morning Routine</h3>
+                            <p>Wake up, exercise, and plan the day ahead. Morning planning sets the tone for productivity.</p>
                         </div>
                     </div>
+                    
+                    <div class="routine-item">
+                        <div class="routine-time">06:30 AM</div>
+                        <div class="routine-content">
+                            <h3>Study Session</h3>
+                            <p>Deep work on ICS subjects - Physics problems, Mathematics concepts, and Computer Science theory.</p>
+                        </div>
+                    </div>
+                    
                     <div class="routine-item">
                         <div class="routine-time">09:00 AM</div>
                         <div class="routine-content">
                             <h3>College Lectures</h3>
-                            <p>Attending classes at Government Graduate College Layyah</p>
+                            <p>Attend classes at Government Graduate College Layyah. Focus on understanding, not just memorizing.</p>
                         </div>
                     </div>
+                    
                     <div class="routine-item">
                         <div class="routine-time">02:00 PM</div>
                         <div class="routine-content">
                             <h3>SirVerse Development</h3>
-                            <p>Coding new features, fixing bugs, and improving the platform</p>
+                            <p>Coding new features, debugging, and improving the platform. This is where ideas become reality.</p>
                         </div>
                     </div>
+                    
                     <div class="routine-item">
                         <div class="routine-time">05:00 PM</div>
                         <div class="routine-content">
                             <h3>Content Creation</h3>
-                            <p>Researching and recording educational videos for YouTube</p>
+                            <p>Research, scriptwriting, and recording educational videos that help other students learn.</p>
                         </div>
                     </div>
+                    
                     <div class="routine-item">
                         <div class="routine-time">08:00 PM</div>
                         <div class="routine-content">
                             <h3>Learning & Growth</h3>
-                            <p>Learning new technologies and improving development skills</p>
+                            <p>Study new technologies, read tech articles, and work on personal skill development.</p>
                         </div>
                     </div>
                 </div>
@@ -247,93 +401,398 @@
     </section>
 
     <!-- Footer -->
-    <footer class="main-footer">
-        <div class="container footer-container">
-            <div class="footer-brand">
-                <a href="index.html" class="logo">
-                    <span class="logo-icon">⚡</span>
-                    <span class="logo-text">Arsalan<span class="logo-highlight">Khan</span></span>
-                </a>
-                <p>Student Developer | Founder of SirVerse | Educational Innovator</p>
-                <div class="footer-social">
-                    <a href="https://instagram.com/arsalan__khan_zoyaistani" target="_blank"><i class="fab fa-instagram"></i></a>
-                    <a href="https://twitter.com/Zoyaistani" target="_blank"><i class="fab fa-x-twitter"></i></a>
-                    <a href="https://youtube.com/@Zoyaistani" target="_blank"><i class="fab fa-youtube"></i></a>
-                    <a href="https://linkedin.com/in/arsalankhanzoyaistani" target="_blank"><i class="fab fa-linkedin"></i></a>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="index.html" class="logo">
+                        <span class="logo-icon">⚡</span>
+                        <span>Arsalan<span class="logo-highlight">Khan</span></span>
+                    </a>
+                    <p>Student Developer & Founder<br>Building the future of student technology</p>
+                    <div class="social-links">
+                        <a href="https://instagram.com/arsalan__khan_zoyaistani" aria-label="Instagram" target="_blank">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://twitter.com/Zoyaistani" aria-label="Twitter" target="_blank">
+                            <i class="fab fa-x-twitter"></i>
+                        </a>
+                        <a href="https://youtube.com/@Zoyaistani" aria-label="YouTube" target="_blank">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                        <a href="https://linkedin.com/in/arsalankhanzoyaistani" aria-label="LinkedIn" target="_blank">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About Me</a>
+                    <a href="sirverse-app.html">SirVerse App</a>
+                    <a href="updates.html">Updates</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Resources</h4>
+                    <a href="privacy.html">Privacy Policy</a>
+                    <a href="terms.html">Terms of Service</a>
+                    <a href="sirverse-app.html#faq">FAQ</a>
+                    <a href="contact.html">Support</a>
+                </div>
+                
+                <div class="footer-contact">
+                    <h4>Education</h4>
+                    <p><i class="fas fa-school"></i> Government Graduate College Layyah</p>
+                    <p><i class="fas fa-book"></i> ICS Student (Computer Science)</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Chak 133 TDA Layyah, Pakistan</p>
                 </div>
             </div>
             
-            <div class="footer-links">
-                <h4>Navigation</h4>
-                <a href="index.html">Home</a>
-                <a href="about.html">About Me</a>
-                <a href="sirverse-app.html">SirVerse App</a>
-                <a href="updates.html">Updates</a>
-                <a href="contact.html">Contact</a>
-            </div>
-            
-            <div class="footer-links">
-                <h4>Resources</h4>
-                <a href="privacy.html">Privacy Policy</a>
-                <a href="terms.html">Terms of Service</a>
-                <a href="sirverse-app.html#faq">FAQ</a>
-                <a href="sirverse-app.html#support">Support</a>
-            </div>
-            
-            <div class="footer-newsletter">
-                <h4>Stay Updated</h4>
-                <p>Get notified about SirVerse updates and new educational content</p>
-                <form class="newsletter-form">
-                    <input type="email" placeholder="Your email address" required>
-                    <button type="submit">Subscribe</button>
-                </form>
-            </div>
-        </div>
-        
-        <div class="footer-bottom">
-            <div class="container footer-container">
-                <p>© <span id="current-year-about">2026</span> Arsalan Khan Zoyaistani. All rights reserved.</p>
-                <p>Government Graduate College Layyah | ICS Student | Chak 133 TDA Layyah, Pakistan</p>
+            <div class="footer-bottom">
+                <p>© <span id="currentYear">2026</span> Arsalan Khan Zoyaistani. All rights reserved.</p>
+                <p>SirVerse™ - Revolutionizing how students learn and connect</p>
             </div>
         </div>
     </footer>
 
     <script>
-        // Current year in footer
-        document.getElementById('current-year-about').textContent = new Date().getFullYear();
+        // Mobile Menu Toggle
+        const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+        const navLinks = document.getElementById('navLinks');
         
-        // Mobile menu toggle
-        document.querySelector('.mobile-menu').addEventListener('click', function() {
-            document.querySelector('.nav-links').classList.toggle('active');
+        mobileMenuBtn.addEventListener('click', () => {
+            navLinks.classList.toggle('show');
+            mobileMenuBtn.innerHTML = navLinks.classList.contains('show') 
+                ? '<i class="fas fa-times"></i>' 
+                : '<i class="fas fa-bars"></i>';
         });
         
-        // Animate timeline on scroll
-        const timelineObserver = new IntersectionObserver((entries) => {
-            entries.forEach((entry, index) => {
-                if (entry.isIntersecting) {
-                    setTimeout(() => {
-                        entry.target.classList.add('fade-in-up');
-                    }, index * 200);
+        // Close menu when clicking outside
+        document.addEventListener('click', (e) => {
+            if (!e.target.closest('.nav-container') && navLinks.classList.contains('show')) {
+                navLinks.classList.remove('show');
+                mobileMenuBtn.innerHTML = '<i class="fas fa-bars"></i>';
+            }
+        });
+        
+        // Current Year
+        document.getElementById('currentYear').textContent = new Date().getFullYear();
+        
+        // Smooth scroll for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                const targetId = this.getAttribute('href');
+                if (targetId === '#') return;
+                
+                const targetElement = document.querySelector(targetId);
+                if (targetElement) {
+                    // Close mobile menu if open
+                    navLinks.classList.remove('show');
+                    mobileMenuBtn.innerHTML = '<i class="fas fa-bars"></i>';
+                    
+                    window.scrollTo({
+                        top: targetElement.offsetTop - 80,
+                        behavior: 'smooth'
+                    });
                 }
             });
-        }, { threshold: 0.1 });
-        
-        document.querySelectorAll('.timeline-item, .routine-item').forEach(item => {
-            timelineObserver.observe(item);
         });
+        
+        // Add scroll effect to navbar
+        window.addEventListener('scroll', function() {
+            const nav = document.querySelector('.main-nav');
+            if (window.scrollY > 100) {
+                nav.style.boxShadow = '0 2px 20px rgba(0, 0, 0, 0.1)';
+            } else {
+                nav.style.boxShadow = '0 2px 10px rgba(0, 0, 0, 0.05)';
+            }
+        });
+        
+        // Initialize
+        console.log('About page loaded successfully');
     </script>
-    
+
     <style>
-        /* About Page Specific Styles */
-        .about-content {
-            padding: 4rem 0;
+        /* Reset & Base Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            -webkit-tap-highlight-color: transparent;
+        }
+        
+        html {
+            font-size: 16px;
+            scroll-behavior: smooth;
+        }
+        
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #fff;
+            overflow-x: hidden;
+            padding-top: 70px; /* For fixed nav */
+        }
+        
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'Poppins', sans-serif;
+            font-weight: 600;
+        }
+        
+        /* Container */
+        .container {
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        /* Navigation */
+        .main-nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            background: rgba(255, 255, 255, 0.98);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            border-bottom: 1px solid #f0f0f0;
+            z-index: 1000;
+            padding: 15px 0;
+            transition: all 0.3s ease;
+        }
+        
+        .nav-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .logo {
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: #4361ee;
+        }
+        
+        .logo-icon {
+            margin-right: 8px;
+            font-size: 1.2em;
+        }
+        
+        .logo-highlight {
+            color: #f72585;
+        }
+        
+        .nav-links {
+            display: flex;
+            gap: 2rem;
+        }
+        
+        @media (max-width: 768px) {
+            .nav-links {
+                display: none;
+                position: absolute;
+                top: 100%;
+                left: 0;
+                right: 0;
+                background: white;
+                flex-direction: column;
+                padding: 20px;
+                box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+                border-top: 1px solid #f0f0f0;
+            }
+            
+            .nav-links.show {
+                display: flex;
+            }
+        }
+        
+        .nav-link {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            text-decoration: none;
+            color: #666;
+            font-weight: 500;
+            padding: 8px 12px;
+            border-radius: 8px;
+            transition: all 0.3s ease;
+        }
+        
+        .nav-link:hover {
+            background: #f8f9ff;
+            color: #4361ee;
+        }
+        
+        .nav-link.active {
+            background: #f8f9ff;
+            color: #4361ee;
+            font-weight: 600;
+        }
+        
+        .mobile-menu-btn {
+            display: none;
+            background: none;
+            border: none;
+            font-size: 1.5rem;
+            color: #4361ee;
+            padding: 8px;
+            min-width: 44px;
+            min-height: 44px;
+            cursor: pointer;
+        }
+        
+        @media (max-width: 768px) {
+            .mobile-menu-btn {
+                display: block;
+            }
+        }
+        
+        /* Page Hero */
+        .page-hero {
+            padding: 80px 0 60px;
+            background: linear-gradient(135deg, #4361ee 0%, #3a0ca3 100%);
+            color: white;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .page-hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: 
+                radial-gradient(circle at 20% 80%, rgba(255, 255, 255, 0.1) 0%, transparent 50%),
+                radial-gradient(circle at 80% 20%, rgba(247, 37, 133, 0.1) 0%, transparent 50%);
+        }
+        
+        .hero-content {
+            position: relative;
+            z-index: 1;
+            text-align: center;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        .hero-badges {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            flex-wrap: wrap;
+            margin-bottom: 30px;
+        }
+        
+        .badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: rgba(255, 255, 255, 0.15);
+            backdrop-filter: blur(10px);
+            padding: 10px 20px;
+            border-radius: 50px;
+            font-size: 0.9rem;
+            font-weight: 500;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+        
+        .hero-title {
+            margin-bottom: 20px;
+        }
+        
+        .hero-main {
+            display: block;
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 10px;
+            line-height: 1.2;
+        }
+        
+        .hero-subtitle {
+            display: block;
+            font-size: 1.2rem;
+            opacity: 0.9;
+            font-weight: 400;
+        }
+        
+        .hero-description {
+            font-size: 1.1rem;
+            opacity: 0.9;
+            max-width: 600px;
+            margin: 0 auto 30px;
+            line-height: 1.7;
+        }
+        
+        .hero-stats {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            margin-top: 40px;
+        }
+        
+        .stat {
+            text-align: center;
+        }
+        
+        .stat-number {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: #ff6b6b;
+            line-height: 1;
+        }
+        
+        .stat-label {
+            font-size: 0.9rem;
+            opacity: 0.8;
+            margin-top: 8px;
+        }
+        
+        @media (max-width: 768px) {
+            .page-hero {
+                padding: 60px 0 40px;
+            }
+            
+            .hero-main {
+                font-size: 2rem;
+            }
+            
+            .hero-subtitle {
+                font-size: 1rem;
+            }
+            
+            .hero-stats {
+                gap: 20px;
+            }
+            
+            .stat-number {
+                font-size: 2rem;
+            }
+        }
+        
+        /* About Section */
+        .about-section {
+            padding: 60px 0;
+            background: #fff;
         }
         
         .about-grid {
             display: grid;
             grid-template-columns: 2fr 1fr;
-            gap: 4rem;
-            margin-bottom: 4rem;
+            gap: 40px;
+            margin-bottom: 60px;
         }
         
         @media (max-width: 1024px) {
@@ -342,158 +801,194 @@
             }
         }
         
-        .about-main h2 {
+        /* Section Header */
+        .section-header {
+            margin-bottom: 40px;
+        }
+        
+        .section-header h2 {
             font-size: 2rem;
-            margin-bottom: 2rem;
+            color: #1e293b;
             display: flex;
             align-items: center;
-            gap: 1rem;
+            gap: 12px;
+            margin-bottom: 10px;
         }
         
-        .about-main p {
-            font-size: 1.125rem;
-            line-height: 1.8;
-            margin-bottom: 2rem;
+        .section-subtitle {
+            color: #64748b;
+            font-size: 1.1rem;
+            max-width: 600px;
         }
         
-        /* Education Timeline */
-        .education-timeline {
-            margin: 3rem 0;
+        /* Journey Timeline */
+        .journey-timeline {
             position: relative;
+            margin: 40px 0;
         }
         
-        .education-timeline::before {
+        .journey-timeline::before {
             content: '';
             position: absolute;
-            left: 30px;
+            left: 16px;
             top: 0;
             bottom: 0;
             width: 2px;
-            background: linear-gradient(to bottom, var(--primary), var(--secondary));
+            background: linear-gradient(to bottom, #4361ee, #f72585);
         }
         
-        .timeline-item {
+        .journey-item {
             display: flex;
-            gap: 2rem;
-            margin-bottom: 2.5rem;
-            opacity: 0;
-            transform: translateX(-20px);
-            transition: all 0.6s ease;
+            gap: 30px;
+            margin-bottom: 40px;
+            position: relative;
         }
         
-        .timeline-item.animated {
-            opacity: 1;
-            transform: translateX(0);
+        .journey-year {
+            width: 80px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: #4361ee;
+            text-align: right;
+            flex-shrink: 0;
+            padding-top: 8px;
         }
         
-        .timeline-marker {
-            width: 60px;
-            height: 60px;
+        .journey-content {
+            display: flex;
+            gap: 20px;
+            flex: 1;
             background: white;
-            border-radius: 50%;
+            padding: 25px;
+            border-radius: 16px;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+            border: 1px solid #f1f5f9;
+        }
+        
+        .journey-icon {
+            width: 50px;
+            height: 50px;
+            background: linear-gradient(135deg, #4361ee 0%, #3a0ca3 100%);
+            border-radius: 12px;
             display: flex;
             align-items: center;
             justify-content: center;
-            color: var(--primary);
-            font-size: 1.5rem;
-            box-shadow: var(--shadow);
+            color: white;
+            font-size: 1.2rem;
             flex-shrink: 0;
-            position: relative;
-            z-index: 1;
         }
         
-        .timeline-item.current .timeline-marker {
-            background: var(--gradient-primary);
-            color: white;
+        .journey-item.current .journey-icon {
+            background: linear-gradient(135deg, #f72585 0%, #b5179e 100%);
             animation: pulse 2s infinite;
         }
         
-        .timeline-content h3 {
-            font-size: 1.25rem;
-            margin-bottom: 0.5rem;
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
         }
         
-        .timeline-content p {
-            margin: 0;
-            color: var(--gray);
+        .journey-details h3 {
+            font-size: 1.3rem;
+            color: #1e293b;
+            margin-bottom: 10px;
         }
         
-        /* Tech Stack */
-        .tech-stack {
-            background: var(--light);
-            padding: 2rem;
-            border-radius: var(--radius-lg);
-            margin: 3rem 0;
+        .journey-details p {
+            color: #64748b;
+            line-height: 1.7;
         }
         
-        .tech-stack h3 {
-            font-size: 1.5rem;
-            margin-bottom: 1.5rem;
-            display: flex;
-            align-items: center;
-            gap: 0.75rem;
+        /* Skills Section */
+        .skills-section {
+            margin-top: 60px;
         }
         
         .skills-grid {
             display: grid;
-            gap: 1.5rem;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 25px;
         }
         
-        .skill-item {
+        .skill-card {
             background: white;
-            padding: 1.5rem;
-            border-radius: var(--radius);
-            box-shadow: var(--shadow-sm);
+            padding: 25px;
+            border-radius: 16px;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+            border: 1px solid #f1f5f9;
+            transition: transform 0.3s ease;
         }
         
-        .skill-header {
+        .skill-card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .skill-icon {
+            width: 60px;
+            height: 60px;
+            background: #f8f9ff;
+            border-radius: 12px;
             display: flex;
-            justify-content: space-between;
             align-items: center;
-            margin-bottom: 0.75rem;
+            justify-content: center;
+            color: #4361ee;
+            font-size: 1.8rem;
+            margin-bottom: 20px;
         }
         
-        .skill-name {
-            font-weight: 600;
-            color: var(--dark);
+        .skill-content h3 {
+            font-size: 1.2rem;
+            color: #1e293b;
+            margin-bottom: 8px;
+        }
+        
+        .skill-content p {
+            color: #64748b;
+            font-size: 0.95rem;
+            margin-bottom: 15px;
+            line-height: 1.6;
         }
         
         .skill-level {
-            font-size: 0.875rem;
-            color: var(--primary);
-            font-weight: 500;
+            display: flex;
+            align-items: center;
+            gap: 15px;
         }
         
-        .skill-bar {
-            height: 8px;
-            background: var(--gray-light);
-            border-radius: 4px;
+        .level-bar {
+            flex: 1;
+            height: 6px;
+            background: #e2e8f0;
+            border-radius: 3px;
             overflow: hidden;
         }
         
-        .skill-progress {
+        .level-progress {
             height: 100%;
-            background: var(--gradient-primary);
-            border-radius: 4px;
-            transition: width 1s ease;
+            background: linear-gradient(135deg, #4361ee 0%, #3a0ca3 100%);
+            border-radius: 3px;
         }
         
-        /* Sidebar Styles */
-        .about-sidebar {
-            display: flex;
-            flex-direction: column;
-            gap: 2rem;
+        .skill-level span {
+            font-size: 0.9rem;
+            font-weight: 600;
+            color: #4361ee;
+            min-width: 40px;
         }
         
+        /* Profile Card */
         .profile-card {
             background: white;
-            border-radius: var(--radius-lg);
+            border-radius: 20px;
             overflow: hidden;
-            box-shadow: var(--shadow);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            margin-bottom: 30px;
         }
         
         .profile-image {
-            height: 200px;
+            position: relative;
+            height: 250px;
             overflow: hidden;
         }
         
@@ -503,114 +998,189 @@
             object-fit: cover;
         }
         
+        .profile-badge {
+            position: absolute;
+            bottom: 20px;
+            left: 20px;
+            background: linear-gradient(135deg, #f72585 0%, #b5179e 100%);
+            color: white;
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            font-weight: 500;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
         .profile-info {
-            padding: 2rem;
+            padding: 30px;
         }
         
         .profile-info h3 {
             font-size: 1.5rem;
-            margin-bottom: 0.5rem;
+            color: #1e293b;
+            margin-bottom: 8px;
         }
         
-        .profile-title {
-            color: var(--primary);
-            font-weight: 500;
-            margin-bottom: 1.5rem;
+        .profile-tagline {
+            color: #64748b;
+            font-size: 1rem;
+            margin-bottom: 25px;
         }
         
         .profile-details {
-            display: flex;
-            flex-direction: column;
-            gap: 1rem;
+            margin-bottom: 25px;
         }
         
-        .detail-item {
+        .detail {
             display: flex;
             align-items: center;
-            gap: 1rem;
+            gap: 15px;
+            padding: 12px 0;
+            border-bottom: 1px solid #f1f5f9;
         }
         
-        .detail-item i {
-            width: 40px;
-            height: 40px;
-            background: var(--light);
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: var(--primary);
-        }
-        
-        .detail-item h4 {
-            font-size: 0.875rem;
-            color: var(--gray);
-            margin: 0;
-        }
-        
-        .detail-item p {
-            font-size: 0.875rem;
-            font-weight: 500;
-            margin: 0;
-        }
-        
-        .youtube-card {
-            background: white;
-            padding: 2rem;
-            border-radius: var(--radius-lg);
-            box-shadow: var(--shadow);
-        }
-        
-        .youtube-card h3 {
-            font-size: 1.25rem;
-            margin-bottom: 1rem;
-            display: flex;
-            align-items: center;
-            gap: 0.75rem;
-            color: #FF0000;
-        }
-        
-        .youtube-card > p {
-            color: var(--gray);
-            margin-bottom: 1.5rem;
-        }
-        
-        .youtube-topics {
-            list-style: none;
-            padding: 0;
-            margin: 0 0 2rem;
-        }
-        
-        .youtube-topics li {
-            padding: 0.75rem 0;
-            border-bottom: 1px solid var(--gray-light);
-            display: flex;
-            align-items: center;
-            gap: 0.75rem;
-        }
-        
-        .youtube-topics li:last-child {
+        .detail:last-child {
             border-bottom: none;
         }
         
-        .youtube-topics li i {
-            color: var(--primary);
+        .detail i {
+            width: 36px;
+            height: 36px;
+            background: #f8f9ff;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #4361ee;
+            flex-shrink: 0;
+        }
+        
+        .detail-label {
+            display: block;
+            font-size: 0.8rem;
+            color: #94a3b8;
+            margin-bottom: 2px;
+        }
+        
+        .detail-value {
+            display: block;
+            font-size: 0.95rem;
+            color: #1e293b;
+            font-weight: 500;
+        }
+        
+        .profile-quote {
+            background: #f8f9ff;
+            padding: 20px;
+            border-radius: 12px;
+            border-left: 4px solid #4361ee;
+        }
+        
+        .profile-quote i {
+            color: #4361ee;
+            font-size: 1.2rem;
+            margin-bottom: 10px;
+            display: block;
+        }
+        
+        .profile-quote p {
+            color: #475569;
+            font-style: italic;
+            line-height: 1.6;
+            margin: 0;
+        }
+        
+        /* YouTube Card */
+        .youtube-card {
+            background: white;
+            padding: 30px;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+        
+        .card-header {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 20px;
+        }
+        
+        .card-header i {
+            color: #FF0000;
+            font-size: 1.8rem;
+        }
+        
+        .card-header h3 {
+            font-size: 1.3rem;
+            color: #1e293b;
+        }
+        
+        .card-description {
+            color: #64748b;
+            margin-bottom: 25px;
+            line-height: 1.6;
+        }
+        
+        .topics-list {
+            list-style: none;
+            margin-bottom: 30px;
+        }
+        
+        .topics-list li {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            padding: 12px 0;
+            border-bottom: 1px solid #f1f5f9;
+        }
+        
+        .topics-list li:last-child {
+            border-bottom: none;
+        }
+        
+        .topics-list li i {
+            color: #4361ee;
+            width: 20px;
+        }
+        
+        .topics-list li span {
+            color: #475569;
+            font-weight: 500;
+        }
+        
+        .youtube-btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            width: 100%;
+            padding: 16px;
+            background: #FF0000;
+            color: white;
+            text-decoration: none;
+            border-radius: 12px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+        
+        .youtube-btn:hover {
+            background: #cc0000;
+            transform: translateY(-2px);
         }
         
         /* Routine Section */
         .routine-section {
-            background: var(--gradient-dark);
+            background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
             color: white;
-            padding: 4rem;
-            border-radius: var(--radius-lg);
-            margin: 4rem 0;
+            padding: 60px;
+            border-radius: 24px;
+            margin-top: 60px;
         }
         
-        .routine-section .section-title {
+        .routine-section .section-header h2 {
             color: white;
-        }
-        
-        .routine-section .section-title::after {
-            background: var(--accent);
         }
         
         .routine-section .section-subtitle {
@@ -619,99 +1189,211 @@
         
         .routine-timeline {
             max-width: 800px;
-            margin: 3rem auto 0;
+            margin: 40px auto 0;
         }
         
         .routine-item {
             display: flex;
-            gap: 2rem;
-            margin-bottom: 2rem;
-            padding: 1.5rem;
+            align-items: flex-start;
+            gap: 40px;
+            padding: 25px;
             background: rgba(255, 255, 255, 0.05);
-            border-radius: var(--radius);
+            border-radius: 16px;
+            margin-bottom: 20px;
             border: 1px solid rgba(255, 255, 255, 0.1);
             backdrop-filter: blur(10px);
-            opacity: 0;
-            transform: translateY(20px);
-            transition: all 0.6s ease;
-        }
-        
-        .routine-item.animated {
-            opacity: 1;
-            transform: translateY(0);
         }
         
         .routine-time {
-            font-size: 1.25rem;
-            font-weight: 700;
-            color: var(--accent);
+            font-size: 1.2rem;
+            font-weight: 600;
+            color: #ff6b6b;
             min-width: 100px;
         }
         
         .routine-content h3 {
+            font-size: 1.3rem;
             color: white;
-            font-size: 1.25rem;
-            margin-bottom: 0.5rem;
+            margin-bottom: 8px;
         }
         
         .routine-content p {
             color: rgba(255, 255, 255, 0.7);
-            margin: 0;
+            line-height: 1.6;
         }
         
-        /* Hero Badges */
-        .hero-badges {
-            display: flex;
-            gap: 1rem;
-            justify-content: center;
-            flex-wrap: wrap;
-            margin-top: 2rem;
+        /* Footer */
+        .footer {
+            background: #0f172a;
+            color: white;
+            padding: 60px 0 30px;
         }
         
-        .badge {
-            background: rgba(255, 255, 255, 0.1);
-            border: 1px solid rgba(255, 255, 255, 0.2);
-            padding: 0.5rem 1.5rem;
-            border-radius: 50px;
-            display: inline-flex;
-            align-items: center;
-            gap: 0.5rem;
-            font-size: 0.875rem;
-            backdrop-filter: blur(10px);
-        }
-        
-        @keyframes pulse {
-            0% { box-shadow: 0 0 0 0 rgba(67, 97, 238, 0.7); }
-            70% { box-shadow: 0 0 0 10px rgba(67, 97, 238, 0); }
-            100% { box-shadow: 0 0 0 0 rgba(67, 97, 238, 0); }
+        .footer-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 40px;
+            margin-bottom: 50px;
         }
         
         @media (max-width: 768px) {
-            .education-timeline::before {
-                left: 20px;
+            .footer-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+        
+        .footer-brand p {
+            color: #94a3b8;
+            margin: 20px 0;
+            line-height: 1.6;
+        }
+        
+        .social-links {
+            display: flex;
+            gap: 15px;
+        }
+        
+        .social-links a {
+            width: 44px;
+            height: 44px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-decoration: none;
+            font-size: 1.2rem;
+            transition: all 0.3s ease;
+        }
+        
+        .social-links a:hover {
+            background: #4361ee;
+            transform: translateY(-3px);
+        }
+        
+        .footer-links h4,
+        .footer-contact h4 {
+            font-size: 1.1rem;
+            margin-bottom: 20px;
+            color: white;
+        }
+        
+        .footer-links a {
+            display: block;
+            color: #94a3b8;
+            text-decoration: none;
+            margin-bottom: 12px;
+            transition: color 0.3s ease;
+        }
+        
+        .footer-links a:hover {
+            color: white;
+        }
+        
+        .footer-contact p {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            color: #94a3b8;
+            margin-bottom: 15px;
+        }
+        
+        .footer-contact i {
+            width: 20px;
+            color: #4361ee;
+        }
+        
+        .footer-bottom {
+            text-align: center;
+            padding-top: 30px;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            color: #94a3b8;
+            font-size: 0.9rem;
+        }
+        
+        .footer-bottom p {
+            margin: 10px 0;
+        }
+        
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .journey-content {
+                flex-direction: column;
+                gap: 15px;
             }
             
-            .timeline-item {
-                gap: 1rem;
-            }
-            
-            .timeline-marker {
+            .journey-icon {
                 width: 40px;
                 height: 40px;
                 font-size: 1rem;
             }
             
+            .journey-year {
+                width: 60px;
+                font-size: 0.9rem;
+            }
+            
             .routine-section {
-                padding: 2rem;
+                padding: 40px 20px;
             }
             
             .routine-item {
                 flex-direction: column;
-                gap: 1rem;
+                gap: 15px;
             }
             
             .routine-time {
                 min-width: auto;
+            }
+            
+            .skills-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            .hero-stats {
+                flex-direction: column;
+                gap: 25px;
+            }
+            
+            .hero-badges {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            .badge {
+                width: 100%;
+                max-width: 200px;
+                justify-content: center;
+            }
+        }
+        
+        /* Print Styles */
+        @media print {
+            .main-nav,
+            .footer,
+            .mobile-menu-btn,
+            .youtube-btn,
+            .social-links {
+                display: none;
+            }
+            
+            body {
+                padding-top: 0;
+            }
+            
+            .page-hero {
+                background: none;
+                color: #000;
+                padding: 20px 0;
+            }
+            
+            .routine-section {
+                background: none;
+                color: #000;
+                border: 2px solid #000;
             }
         }
     </style>
