@@ -1,4 +1,4 @@
-<!-- FILE: index.html -->
+<!-- FILE: index.html - UPDATED DESIGN -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,8 +12,6 @@
     <meta name="description" content="Meet Arsalan Khan Zoyaistani - ICS Student, Founder of SirVerse, and Educational Technology Innovator. Discover how this 12th-grade student is building the future of student connectivity with SirVerse, a revolutionary student-only platform.">
     <meta name="keywords" content="Arsalan Khan Zoyaistani, SirVerse founder, student developer, ICS student Layyah, educational technology, student social platform, React Native developer, Python Flask, student entrepreneur Pakistan, Government Graduate College Layyah, Zoyaistani YouTube, student productivity app">
     <meta name="author" content="Arsalan Khan Zoyaistani">
-    <meta name="robots" content="index, follow">
-    <meta name="googlebot" content="index, follow">
     
     <!-- Open Graph Tags -->
     <meta property="og:title" content="Arsalan Khan Zoyaistani - Building the Future of Student Technology">
@@ -28,9 +26,19 @@
     <meta name="twitter:description" content="Follow the journey of a 12th-grade ICS student building SirVerse - The complete student ecosystem.">
     <meta name="twitter:image" content="https://sirverse.online/images/arsalan-profile-seo.jpg">
     
-    <!-- Canonical URL -->
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     
-    <!-- Structured Data for SEO -->
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    
+    <!-- Structured Data -->
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
@@ -58,39 +66,10 @@
             "https://instagram.com/arsalan__khan_zoyaistani",
             "https://twitter.com/Zoyaistani",
             "https://youtube.com/@Zoyaistani",
-            "https://linkedin.com/in/arsalankhanzoyaistani",
-            "https://facebook.com/arsalankhanzoyaistani"
+            "https://linkedin.com/in/arsalankhanzoyaistani"
         ]
     }
     </script>
-    
-    <!-- App Structured Data -->
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "SoftwareApplication",
-        "name": "SirVerse",
-        "applicationCategory": "EducationalApplication",
-        "operatingSystem": "Android, iOS",
-        "description": "A student-only social and educational platform combining social networking, note-taking, real-time chat, and AI tutoring features designed specifically for students.",
-        "creator": {
-            "@type": "Person",
-            "name": "Arsalan Khan Zoyaistani"
-        },
-        "offers": {
-            "@type": "Offer",
-            "price": "0",
-            "priceCurrency": "USD"
-        }
-    }
-    </script>
-    
-    <link rel="stylesheet" href="styles/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto+Slab:wght@400;500;700&display=swap" rel="stylesheet">
-    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
 </head>
 <body>
     <!-- Navigation -->
@@ -102,8 +81,8 @@
             </a>
             <div class="nav-links">
                 <a href="index.html" class="nav-link active"><i class="fas fa-home"></i> Home</a>
-                <a href="about.html" class="nav-link"><i class="fas fa-user"></i> About Me</a>
-                <a href="sirverse-app.html" class="nav-link"><i class="fas fa-rocket"></i> SirVerse App</a>
+                <a href="about.html" class="nav-link"><i class="fas fa-user"></i> About</a>
+                <a href="sirverse-app.html" class="nav-link"><i class="fas fa-rocket"></i> SirVerse</a>
                 <a href="updates.html" class="nav-link"><i class="fas fa-newspaper"></i> Updates</a>
                 <a href="contact.html" class="nav-link"><i class="fas fa-envelope"></i> Contact</a>
             </div>
@@ -115,32 +94,41 @@
 
     <!-- Hero Section -->
     <section class="hero">
-        <div class="hero-container">
+        <div class="container hero-container fade-in-up">
             <div class="hero-content">
-                <h1 class="hero-title">Arsalan Khan <span class="highlight">Zoyaistani</span></h1>
-                <p class="hero-subtitle">ICS Student | Founder of SirVerse | Educational Technology Innovator</p>
-                <p class="hero-desc">A 12th-grade ICS student from Government Graduate College Layyah, building the future of student connectivity through technology. Founder and CEO of <strong>SirVerse</strong> - a revolutionary student-only platform that's changing how students learn, connect, and grow together.</p>
+                <h1 class="hero-title">Arsalan Khan <span class="text-gradient">Zoyaistani</span></h1>
+                <p class="hero-subtitle"> Student Developer | Founder of SirVerse | Educational Technology Innovator</p>
+                <p class="hero-desc">A 12th-grade ICS student from Government Graduate College Layyah, building the future of student connectivity through technology. Founder and CEO of <strong class="text-gradient">SirVerse</strong> - a revolutionary student-only platform that's changing how students learn, connect, and grow together.</p>
+                
                 <div class="hero-stats">
                     <div class="stat-item">
-                        <h3>1M+</h3>
-                        <p>YouTube Views</p>
+                        <h3>15+</h3>
+                        <p>App Features Built</p>
                     </div>
                     <div class="stat-item">
-                        <h3>30+</h3>
-                        <p>App Screens</p>
+                        <h3>100%</h3>
+                        <p>Student Focused</p>
                     </div>
                     <div class="stat-item">
-                        <h3>10K+</h3>
-                        <p>Students Impacted</p>
+                        <h3>24/7</h3>
+                        <p>Learning & Coding</p>
                     </div>
                 </div>
+                
                 <div class="hero-buttons">
-                    <a href="about.html" class="btn btn-primary">My Journey <i class="fas fa-user-graduate"></i></a>
-                    <a href="sirverse-app.html" class="btn btn-secondary">Explore SirVerse <i class="fas fa-rocket"></i></a>
+                    <a href="about.html" class="btn btn-primary">
+                        <i class="fas fa-user-graduate"></i> My Journey
+                    </a>
+                    <a href="sirverse-app.html" class="btn btn-secondary">
+                        <i class="fas fa-rocket"></i> Explore SirVerse
+                    </a>
+                    <a href="contact.html" class="btn btn-accent">
+                        <i class="fas fa-envelope"></i> Get In Touch
+                    </a>
                 </div>
             </div>
+            
             <div class="hero-image">
-                <!-- Profile Image Container - Using your actual image -->
                 <div class="profile-image-container">
                     <img src="images/arsalan-profile-main.jpg" alt="Arsalan Khan Zoyaistani - Founder of SirVerse and ICS Student" class="profile-image">
                     <div class="image-badge">
@@ -158,9 +146,9 @@
 
     <!-- Featured Section -->
     <section class="featured-section">
-        <div class="section-container">
-            <h2 class="section-title">Featured <span class="highlight">Initiatives</span></h2>
-            <p class="section-subtitle">Creating impact through technology and education</p>
+        <div class="container">
+            <h2 class="section-title">What I <span class="text-gradient">Build</span></h2>
+            <p class="section-subtitle">Creating meaningful technology for students worldwide</p>
             
             <div class="featured-grid">
                 <div class="featured-card">
@@ -169,25 +157,31 @@
                     </div>
                     <h3>SirVerse Platform</h3>
                     <p>A comprehensive student ecosystem combining social networking, academic tools, and AI-powered learning assistance designed exclusively for students.</p>
-                    <a href="sirverse-app.html" class="featured-link">Explore Platform <i class="fas fa-arrow-right"></i></a>
+                    <a href="sirverse-app.html" class="featured-link">
+                        Explore Platform <i class="fas fa-arrow-right"></i>
+                    </a>
                 </div>
                 
                 <div class="featured-card">
                     <div class="featured-icon">
                         <i class="fab fa-youtube"></i>
                     </div>
-                    <h3>Educational YouTube</h3>
-                    <p>Teaching students about AI, productivity, social media awareness, and success strategies through engaging video content on @Zoyaistani.</p>
-                    <a href="https://youtube.com/@Zoyaistani" target="_blank" class="featured-link">Watch Videos <i class="fas fa-arrow-right"></i></a>
+                    <h3>Educational Content</h3>
+                    <p>Teaching students about AI, productivity, social media awareness, and success strategies through engaging video content on YouTube.</p>
+                    <a href="https://youtube.com/@Zoyaistani" target="_blank" class="featured-link">
+                        Watch Videos <i class="fas fa-arrow-right"></i>
+                    </a>
                 </div>
                 
                 <div class="featured-card">
                     <div class="featured-icon">
-                        <i class="fas fa-graduation-cap"></i>
+                        <i class="fas fa-code"></i>
                     </div>
-                    <h3>Student Advocacy</h3>
-                    <p>Representing student voices in educational technology and advocating for better digital tools for students worldwide.</p>
-                    <a href="about.html" class="featured-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                    <h3>Open Source</h3>
+                    <p>Building and sharing educational tools and resources to help fellow students learn programming and technology skills.</p>
+                    <a href="about.html" class="featured-link">
+                        View Projects <i class="fas fa-arrow-right"></i>
+                    </a>
                 </div>
             </div>
         </div>
@@ -195,43 +189,51 @@
 
     <!-- Latest Updates -->
     <section class="updates-section">
-        <div class="section-container">
-            <h2 class="section-title">Latest <span class="highlight">Updates</span></h2>
+        <div class="container">
+            <h2 class="section-title">Latest <span class="text-gradient">Updates</span></h2>
             <p class="section-subtitle">Stay updated with SirVerse development and educational content</p>
             
             <div class="updates-grid">
                 <div class="update-card">
-                    <div class="update-date">November 2025</div>
-                    <h3>SirVerse Closed Testing Start</h3>
-                    <p>Announcing the Closed  testing phase for SirVerse - looking for student testers to help shape the future of educational technology.</p>
-                    <a href="updates.html#beta-launch" class="update-link">Read More</a>
+                    <div class="update-date">January 2026</div>
+                    <h3>SirVerse Launch Announcement</h3>
+                    <p>Official announcement of SirVerse public launch scheduled for January 18, 2026. The complete student ecosystem is now ready.</p>
+                    <a href="updates.html" class="update-link">
+                        Read Announcement <i class="fas fa-arrow-right"></i>
+                    </a>
                 </div>
                 
                 <div class="update-card">
                     <div class="update-date">December 2025</div>
-                    <h3>New YouTube Series: AI for Students</h3>
-                    <p>Launched a comprehensive series teaching students about Artificial Intelligence and how to leverage it for academic success.</p>
-                    <a href="https://youtube.com/@Zoyaistani" target="_blank" class="update-link">Watch Series</a>
+                    <h3>New YouTube Series</h3>
+                    <p>Launched comprehensive series teaching students about Artificial Intelligence and how to leverage it for academic success.</p>
+                    <a href="https://youtube.com/@Zoyaistani" target="_blank" class="update-link">
+                        Watch Series <i class="fas fa-arrow-right"></i>
+                    </a>
                 </div>
                 
                 <div class="update-card">
-                    <div class="update-date">January 2026</div>
-                    <h3>SirVerse Feature Complete</h3>
-                    <p>All core features of SirVerse are now implemented including real-time chat, notes system, AI tutor, and social feed.</p>
-                    <a href="updates.html#feature-complete" class="update-link">Feature Details</a>
+                    <div class="update-date">November 2025</div>
+                    <h3>Beta Testing Complete</h3>
+                    <p>Successfully completed closed beta testing phase with valuable feedback from student testers shaping the platform.</p>
+                    <a href="updates.html" class="update-link">
+                        View Results <i class="fas fa-arrow-right"></i>
+                    </a>
                 </div>
             </div>
             
-            <div class="updates-cta">
-                <a href="updates.html" class="btn btn-primary">View All Updates <i class="fas fa-newspaper"></i></a>
+            <div class="text-center">
+                <a href="updates.html" class="btn btn-primary">
+                    <i class="fas fa-newspaper"></i> View All Updates
+                </a>
             </div>
         </div>
     </section>
 
     <!-- Social Proof -->
     <section class="social-section">
-        <div class="section-container">
-            <h2 class="section-title">Connect <span class="highlight">With Me</span></h2>
+        <div class="container">
+            <h2 class="section-title">Connect <span class="text-gradient">With Me</span></h2>
             <p class="section-subtitle">Follow my journey across platforms for daily insights, educational content, and updates</p>
             
             <div class="social-grid">
@@ -276,83 +278,65 @@
 
     <!-- Footer -->
     <footer class="main-footer">
-        <div class="footer-container">
+        <div class="container footer-container">
             <div class="footer-brand">
                 <a href="index.html" class="logo">
                     <span class="logo-icon">⚡</span>
                     <span class="logo-text">Arsalan<span class="logo-highlight">Khan</span></span>
                 </a>
-                <p>Student Developer | Founder & CEO  of SirVerse | Educational Innovator</p>
+                <p>Student Developer | Founder & CEO of SirVerse | Educational Innovator</p>
                 <div class="footer-social">
-                    <a href="https://instagram.com/arsalan__khan_zoyaistani" target="_blank"><i class="fab fa-instagram"></i></a>
-                    <a href="https://x.com/Zoyaistani" target="_blank"><i class="fab fa-x-twitter"></i></a>
-                    <a href="https://youtube.com/@Zoyaistani" target="_blank"><i class="fab fa-youtube"></i></a>
-                    <a href="https://linkedin.com/in/arsalankhanzoyaistani" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://instagram.com/arsalan__khan_zoyaistani" target="_blank" aria-label="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://x.com/Zoyaistani" target="_blank" aria-label="Twitter">
+                        <i class="fab fa-x-twitter"></i>
+                    </a>
+                    <a href="https://youtube.com/@Zoyaistani" target="_blank" aria-label="YouTube">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                    <a href="https://linkedin.com/in/arsalankhanzoyaistani" target="_blank" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
                 </div>
             </div>
             
-            <div class="footer-links-grid">
-                <div class="footer-links">
-                    <h4>Navigation</h4>
-                    <a href="index.html">Home</a>
-                    <a href="about.html">About Me</a>
-                    <a href="sirverse-app.html">SirVerse App</a>
-                    <a href="updates.html">Updates</a>
-                    <a href="contact.html">Contact</a>
-                </div>
-                
-                <div class="footer-links">
-                    <h4>Resources</h4>
-                    <a href="privacy.html">Privacy Policy</a>
-                    <a href="terms.html">Terms of Service</a>
-                    <a href="sirverse-app.html#faq">FAQ</a>
-                    <a href="sirverse-app.html#support">Support</a>
-                </div>
-                
-                <div class="footer-links">
-                    <h4>SirVerse</h4>
-                    <a href="sirverse-app.html#features">Features</a>
-                    <a href="sirverse-app.html#benefits">Benefits</a>
-                    <a href="sirverse-app.html#updates">App Updates</a>
-                    <a href="sirverse-app.html#download">Download</a>
-                </div>
+            <div class="footer-links">
+                <h4>Navigation</h4>
+                <a href="index.html">Home</a>
+                <a href="about.html">About Me</a>
+                <a href="sirverse-app.html">SirVerse App</a>
+                <a href="updates.html">Updates</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            
+            <div class="footer-links">
+                <h4>Resources</h4>
+                <a href="privacy.html">Privacy Policy</a>
+                <a href="terms.html">Terms of Service</a>
+                <a href="sirverse-app.html#faq">FAQ</a>
+                <a href="sirverse-app.html#support">Support</a>
             </div>
             
             <div class="footer-newsletter">
                 <h4>Stay Updated</h4>
                 <p>Get notified about SirVerse updates and new educational content</p>
                 <form class="newsletter-form">
-                    <input type="email" placeholder="Your email address" required>
+                    <input type="email" placeholder="Your email address" required aria-label="Email address">
                     <button type="submit">Subscribe</button>
                 </form>
             </div>
         </div>
         
         <div class="footer-bottom">
-            <div class="footer-container">
-                <p>© <span id="current-year">2024</span> Arsalan Khan Zoyaistani. All rights reserved.</p>
+            <div class="container footer-container">
+                <p>© <span id="current-year">2026</span> Arsalan Khan Zoyaistani. All rights reserved.</p>
                 <p>Government Graduate College Layyah | ICS Student | Chak 133 TDA Layyah, Pakistan</p>
-                <p class="footer-seo">Keywords: Student Developer Pakistan, ICS Student Layyah, Educational Technology Founder, SirVerse Creator, Student Social Platform, AI Tutor App, React Native Developer Pakistan, Student Entrepreneur, YouTube Educator Zoyaistani</p>
             </div>
         </div>
     </footer>
 
-    <!-- Hidden SEO Content -->
-    <div class="seo-hidden" aria-hidden="true">
-        <h1>Arsalan Khan Zoyaistani - Student Developer and Founder</h1>
-        <h2>SirVerse - Student Social and Educational Platform</h2>
-        <p>Arsalan Khan Zoyaistani is a 12th-grade ICS student studying at Government Graduate College Layyah, currently residing in Layyah Chak no. 133 TDA Layyah. He completed his matriculation from Government High School Mian Wala Jadeed Chak no. 133 TDA Layyah. As the founder and CEO of SirVerse, Arsalan is creating innovative educational technology solutions for students worldwide.</p>
-        
-        <h3>SirVerse App Features</h3>
-        <p>SirVerse is a comprehensive student platform that provides social networking, academic note-taking, real-time chat functionality, AI-powered tutoring, and productivity tools specifically designed for students. The app helps students connect with peers, organize their studies, get academic assistance, and improve their learning outcomes.</p>
-        
-        <h3>Educational Content on YouTube</h3>
-        <p>On his YouTube channel @Zoyaistani, Arsalan creates educational content covering Artificial Intelligence, social media awareness, productivity improvement, success strategies, time management, and academic excellence tips for students.</p>
-        
-        <h3>Technical Expertise</h3>
-        <p>Arsalan Khan Zoyaistani specializes in full-stack development with expertise in React Native for mobile applications, Python Flask for backend development, PostgreSQL database management, UI/UX design, and educational technology solutions.</p>
-    </div>
-
+    <!-- JavaScript -->
     <script>
         // Current year in footer
         document.getElementById('current-year').textContent = new Date().getFullYear();
@@ -362,11 +346,35 @@
             document.querySelector('.nav-links').classList.toggle('active');
         });
         
+        // Close mobile menu when clicking outside
+        document.addEventListener('click', function(event) {
+            const nav = document.querySelector('.nav-links');
+            const menu = document.querySelector('.mobile-menu');
+            if (nav.classList.contains('active') && !nav.contains(event.target) && !menu.contains(event.target)) {
+                nav.classList.remove('active');
+            }
+        });
+        
         // Newsletter form submission
         document.querySelector('.newsletter-form').addEventListener('submit', function(e) {
             e.preventDefault();
-            alert('Thank you for subscribing! You\'ll receive updates about SirVerse and educational content.');
-            this.reset();
+            const button = this.querySelector('button');
+            const originalText = button.textContent;
+            
+            button.innerHTML = '<span class="loading"></span>';
+            button.disabled = true;
+            
+            setTimeout(() => {
+                button.textContent = 'Subscribed!';
+                button.style.background = 'var(--success)';
+                this.reset();
+                
+                setTimeout(() => {
+                    button.textContent = originalText;
+                    button.style.background = '';
+                    button.disabled = false;
+                }, 2000);
+            }, 1000);
         });
         
         // Smooth scrolling for anchor links
@@ -375,14 +383,47 @@
                 e.preventDefault();
                 const targetId = this.getAttribute('href');
                 if(targetId === '#') return;
+                
                 const targetElement = document.querySelector(targetId);
                 if(targetElement) {
+                    // Close mobile menu if open
+                    document.querySelector('.nav-links').classList.remove('active');
+                    
                     window.scrollTo({
                         top: targetElement.offsetTop - 80,
                         behavior: 'smooth'
                     });
                 }
             });
+        });
+        
+        // Animate elements on scroll
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+        
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('fade-in-up');
+                }
+            });
+        }, observerOptions);
+        
+        // Observe all cards
+        document.querySelectorAll('.featured-card, .update-card, .social-card').forEach(el => {
+            observer.observe(el);
+        });
+        
+        // Add scroll effect to navbar
+        window.addEventListener('scroll', function() {
+            const nav = document.querySelector('.main-nav');
+            if (window.scrollY > 100) {
+                nav.style.boxShadow = 'var(--shadow)';
+            } else {
+                nav.style.boxShadow = 'none';
+            }
         });
     </script>
 </body>
