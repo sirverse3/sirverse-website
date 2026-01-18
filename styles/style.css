@@ -933,3 +933,21 @@ section {
 @keyframes spin {
     to { transform: rotate(360deg); }
 }
+
+/* Add this to your style.css */
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: var(--radius);
+  /* Add these lines: */
+  loading: lazy;
+  display: block; /* Prevents layout shift */
+}
+/* Add to style.css */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
